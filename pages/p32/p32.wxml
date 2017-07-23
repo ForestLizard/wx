@@ -1,0 +1,158 @@
+<!--pages/p32/p32.wxml-->
+<view class="nav-bar-black">
+  <image src="../../images/icon/ser_full.png"></image>
+</view>
+
+<view class="header">
+  <view class="header-item">
+    <text>周边</text>
+    <image src="../../images/icon/more_down_hot.png"></image>
+  </view>
+  <view class="header-item"  bindtap="showSalary">
+    <text>薪资</text>
+    <image src="../../images/icon/more_down_hot.png"></image>
+  </view>
+  <view class="header-item">
+    <text>职位类别</text>
+    <image src="../../images/icon/more_down_hot.png"></image>
+  </view>
+  <view class="header-item">
+    <text>更多</text>
+    <image src="../../images/icon/more_down_hot.png"></image>
+  </view>
+</view>
+
+<view class="cont">
+  <view id="job" class="box">
+    <view class="sec-job media4">
+      <image class="media4-icon" src="../../images/test5.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">网页设计</text>
+          <text class="media4-info">上海酷方网络科技有限公司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">本科</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">3-5年</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">20分钟以前</text>
+          <text class="media4-salary">5K-8K</text>
+        </view>
+      </view>
+    </view>
+    <view class="sec-job media4">
+      <image class="media4-icon" src="../../images/test2.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">JAVA工程师</text>
+          <text class="media4-info">上海酷方网络科技有限公司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">本科</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">3-5年</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">20分钟以前</text>
+          <text class="media4-salary">5K-8K</text>
+        </view>
+      </view>
+    </view>
+    <view class="sec-job media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">运营助理</text>
+          <text class="media4-info">上海酷方网络科技有限公司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">本科</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">3-5年</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">20分钟以前</text>
+          <text class="media4-salary">2K-10K</text>
+        </view>
+      </view>
+    </view>
+    <view class="sec-job media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">运营助理</text>
+          <text class="media4-info">上海酷方网络科技有限公司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">本科</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">3-5年</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">20分钟以前</text>
+          <text class="media4-salary">2K-10K</text>
+        </view>
+      </view>
+    </view>
+    <view class="sec-job media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">运营助理</text>
+          <text class="media4-info">上海酷方网络科技有限公司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">本科</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">3-5年</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">20分钟以前</text>
+          <text class="media4-salary">2K-10K</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="hover" style="visibility:{{hoverVisibility?'visible':'hidden'}};opacity:{{hoverVisibility?0.4:0}}">
+</view>
+
+<view class="salary-box" style="visibility:{{salaryVisibility?'visible':'hidden'}};opacity:{{salaryVisibility?1:0}}">
+  <view class="sec sec-first">
+    <text>薪资</text>
+    <image src="../../images/icon/ser_del_city.png" bindtap="hideSalary"></image>
+  </view>
+  <view class="sec">
+    <text>不限</text>
+  </view>
+  <view class="sec">
+    <text>2K以下</text>
+  </view>
+  <view class="sec">
+    <text>2K-5K</text>
+  </view>
+  <view class="sec">
+    <text>5K-10K</text>
+  </view>
+  <view class="sec">
+    <text>10K-15K</text>
+  </view>
+</view>

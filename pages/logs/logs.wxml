@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{array}}" wx:key="*this">
+    <button id="bt{{index}}" bindtap="bindButtonTap">{{item}}</button>
+  </block>
+</view>

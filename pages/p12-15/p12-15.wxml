@@ -1,0 +1,83 @@
+<!--pages/p12/p12.wxml-->
+<view class="cont">
+  <view class="media4">
+    <image class="media4-icon" src="../../images/test4.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text class="name">陈雪</text>
+          <text class="sex">/女</text>
+          <text class="edu">/本科</text>
+          <text class="adr">/武汉</text>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">网页设计</text>
+          <text class="media4-item">网页前端</text>
+          <text class="media4-item">DIV+CSS</text>
+        </view>
+      </view> 
+      <view class="media4-right">
+        <button class="invite bt-inverse">邀请</button>
+      </view>
+    </view>
+  </view>
+    <view class="media4">
+    <image class="media4-icon" src="../../images/test2.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text class="name name-company">武汉中通科达</text>
+          <text class="hr">HR</text>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">网页设计</text>
+          <text class="media4-item">网页前端</text>
+          <text class="media4-item">DIV+CSS</text>
+        </view>
+      </view> 
+      <view class="media4-right">
+        <button class="invite bt-inverse">邀请</button>
+      </view>
+    </view>
+  </view>
+  <view class="media4">
+    <image class="media4-icon" src="../../images/test1.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text class="name">陈雪</text>
+          <text class="sex">/女</text>
+          <text class="edu">/本科</text>
+          <text class="adr">/武汉</text>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">网页设计</text>
+          <text class="media4-item">网页前端</text>
+          <text class="media4-item">DIV+CSS</text>
+        </view>
+      </view> 
+      <view class="media4-right">
+        <button class="invite bt-inverse">邀请</button>
+      </view>
+    </view>
+  </view>
+    <view class="media4">
+    <image class="media4-icon" src="../../images/test3.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text class="name name-company">武汉中通科达</text>
+          <text class="hr">HR</text>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">网页设计</text>
+          <text class="media4-item">网页前端</text>
+          <text class="media4-item">DIV+CSS</text>
+        </view>
+      </view> 
+      <view class="media4-right">
+        <button class="invite bt-inverse">邀请</button>
+      </view>
+    </view>
+  </view>
+</view>

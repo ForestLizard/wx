@@ -1,0 +1,104 @@
+<!--pages/p16/p16.wxml-->
+<view class="cont">
+  <view class="media4">
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text>网页设计</text>
+          <image src="../../images/icon/cir_top.png"></image>
+        </view>
+        <text class="media4-info">上海酷方网络科技有限工司</text>
+        <view class="media4-footer">
+          <image src="../../images/icon/cir_adr.png"></image>
+          <text class="media4-adr">武汉</text>
+          <image src="../../images/icon/cir_xz.png"></image>
+          <text class="media4-xz">5K-10K</text>
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text class="media4-xl">大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text class="media4-gzjy">不限</text>
+        </view>
+      </view>
+      <view class="media4-right">
+        <text class="media4-time">15：03</text>
+        <button class="bt-inverse cancel">取消</button>
+        <button class="bt-inverse delete">删除</button>
+      </view>
+    </view>
+  </view>
+  
+  <view class="media4">
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text>网页设计</text>
+          <image src="../../images/icon/cir_top.png"></image>
+        </view>
+        <text class="media4-info">上海酷方网络科技有限工司</text>
+        <view class="media4-footer">
+          <image src="../../images/icon/cir_adr.png"></image>
+          <text class="media4-adr">武汉</text>
+          <image src="../../images/icon/cir_xz.png"></image>
+          <text class="media4-xz">5K-10K</text>
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text class="media4-xl">大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text class="media4-gzjy">不限</text>
+        </view>
+      </view>
+      <view class="media4-right">
+        <text class="media4-time">15：03</text>
+        <button class="bt-inverse cancel">取消</button>
+        <button class="bt-inverse delete">删除</button>
+      </view>
+    </view>
+  </view>
+
+  <view class="media4">
+    <view class="media4-body">
+      <view class="media4-left">
+        <text class="media4-title">运营助理</text>
+        <text class="media4-info">上海酷方网络科技有限工司</text>
+        <view class="media4-footer">
+          <image src="../../images/icon/cir_adr.png"></image>
+          <text class="media4-adr">上海</text>
+          <image src="../../images/icon/cir_xz.png"></image>
+          <text class="media4-xz">5K-10K</text>
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text class="media4-xl">大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text class="media4-gzjy">3-5年</text>
+        </view>
+      </view>
+      <view class="media4-right">
+        <text class="media4-time">15：03</text>
+        <button class="bt-inverse settop">置顶</button>
+        <button class="bt-inverse delete">删除</button>
+      </view>
+    </view>
+  </view>
+
+  <view class="media4">
+    <view class="media4-body">
+      <view class="media4-left">
+        <text class="media4-title">运营助理</text>
+        <text class="media4-info">上海酷方网络科技有限工司</text>
+        <view class="media4-footer">
+          <image src="../../images/icon/cir_adr.png"></image>
+          <text class="media4-adr">上海</text>
+          <image src="../../images/icon/cir_xz.png"></image>
+          <text class="media4-xz">5K-10K</text>
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text class="media4-xl">大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text class="media4-gzjy">3-5年</text>
+        </view>
+      </view>
+      <view class="media4-right">
+        <text class="media4-time">15：03</text>
+        <button class="bt-inverse settop">置顶</button>
+        <button class="bt-inverse delete">删除</button>
+      </view>
+    </view>
+  </view>
+</view>

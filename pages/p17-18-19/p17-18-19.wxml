@@ -1,0 +1,183 @@
+<!--pages/p17-18-19/p17-18-19.wxml-->
+<scroll-view class="cont">
+  <view class="header">
+    <image id="avatar" src="../../images/test1.jpg"></image>
+    <text id="circle-name">网页设计圈</text>
+    <text id="create-master" decode="true">创建于：2016-12-27&nbsp;&nbsp;圈主：杨米</text>
+    <text id="member-jobcls" decode="true">成员：12人&nbsp;&nbsp;职位类别：网页设计</text>
+    <button id="toggle" class="bt-inverse">加入圈子</button>
+  </view>
+
+  <view class="nav">
+    <view class="nav-item {{viewToggle[0]?'nav-item-now':''}}" data-nav-item-name="index" bindtap="toggleView">
+      <text>主页</text>
+    </view>
+    <view class="nav-item {{viewToggle[1]?'nav-item-now':''}}"  data-nav-item-name="job" bindtap="toggleView">
+      <text>职位</text>
+    </view>
+    <view class="nav-item {{viewToggle[2]?'nav-item-now':''}}"  data-nav-item-name="friend" bindtap="toggleView">
+      <text>圈友</text>
+    </view>
+  </view>
+
+  <scroll-view id="index-box" class="index-box {{viewToggle[0]?'now':''}}">
+    <view class="index-title">
+      <view id="rel-circle">
+        <text>相关圈子</text>
+      </view>
+      <view id="re-circle-content">
+        <image class="circle-icon" src="../../images/test2.jpg"></image>
+        <text class = "circle-name">武汉设计圈</text>
+        <image class="circle-icon" src="../../images/test1.jpg"></image>
+        <text class = "circle-name">UI设计圈</text>
+        <image class="circle-icon" src="../../images/test5.jpg"></image>
+        <text class = "circle-name">产品设计</text>
+
+        <image class="go" src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+    <view class="index-topic">
+      <view class="topic-item">
+        <view class="topic-item-icon">话题</view>
+        <text>这样才能学到东西！UI设计师该如何正确的把玩App</text>
+      </view>
+      <view class="topic-item">
+        <view class="topic-item-icon">话题</view>
+        <text>这样才能学到东西！UI设计师该如何正确的把玩App</text>
+      </view>
+      <view class="topic-item">
+        <view class="topic-item-icon">话题</view>
+        <text>这样才能学到东西！UI设计师该如何正确的把玩App</text>
+      </view>
+    </view>
+    <view class="index-detail">
+      <view id="circle-desc">
+        <text>圈子介绍</text>
+      </view>
+      <view id="circle-desc-content">
+        <text>JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。在1995年时，由Netscape公司的Brendan Eich，在网景导航者浏览器上首次设计实现而成。</text>
+      </view>
+    </view>
+  </scroll-view>
+
+  <scroll-view id="job-box" class="job-box {{viewToggle[1]?'now':''}}">
+    <view class="media4">
+      <view class="media4-body">
+        <view class="media4-left">
+          <view class="media4-title">
+            <text>网页设计</text>
+          </view>
+          <text class="media4-info">上海酷方网络科技有限工司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">大专</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">不限</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">15：03</text>
+          <text class="media4-salary">5K-10K</text>
+        </view>
+      </view>
+    </view>
+    <view class="media4">
+      <view class="media4-body">
+        <view class="media4-left">
+          <view class="media4-title">
+            <text>网页设计</text>
+          </view>
+          <text class="media4-info">上海酷方网络科技有限工司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">大专</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">不限</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">15：03</text>
+          <text class="media4-salary">5K-10K</text>
+        </view>
+      </view>
+    </view>
+    <view class="media4">
+      <view class="media4-body">
+        <view class="media4-left">
+          <view class="media4-title">
+            <text>网页设计</text>
+          </view>
+          <text class="media4-info">上海酷方网络科技有限工司</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/hot_xl.png"></image>
+            <text class="media4-xl">大专</text>
+            <image src="../../images/icon/hot_gzjy.png"></image>
+            <text class="media4-gzjy">不限</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">15：03</text>
+          <text class="media4-salary">5K-10K</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <scroll-view id="friend-box" class="friend-box {{viewToggle[2]?'now':''}}">
+    <view class="media2">
+        <image src="../../images/test1.jpg"></image>
+        <view class="media2-body">
+          <view class="media2-left">
+            <view class="info">
+              <text class="name">陈雪</text>
+              <text class="sex">/女</text>
+              <text class="edu">/本科</text>
+              <text class="loc">/武汉</text>
+            </view>
+            <text class="message">6年经验/求职：HR，HR助理</text>
+          </view>
+          <view class="media2-right">
+            <button class="bt-inverse resume">查看简历</button>
+          </view>  
+      </view>
+    </view>
+    <view class="media2">
+        <image src="../../images/test2.jpg"></image>
+        <view class="media2-body">
+          <view class="media2-left">
+            <view class="info company">
+              <text class="name">武汉中通科达</text>
+              <text class="hr">HR</text>
+            </view>
+            <text class="message">移动互联网</text>
+          </view>
+          <view class="media2-right">
+            <button class="bt-inverse resume">投递简历</button>
+          </view>  
+      </view>
+    </view>
+    <view class="media2">
+        <image src="../../images/test3.jpg"></image>
+        <view class="media2-body">
+          <view class="media2-left">
+            <view class="info">
+              <text class="name">陈雪</text>
+              <text class="sex">/女</text>
+              <text class="edu">/本科</text>
+              <text class="loc">/武汉</text>
+            </view>
+            <text class="message">6年经验/求职：HR，HR助理</text>
+          </view>
+          <view class="media2-right">
+            <button class="bt-inverse resume">查看简历</button>
+          </view>  
+      </view>
+    </view>
+  </scroll-view>
+</scroll-view>

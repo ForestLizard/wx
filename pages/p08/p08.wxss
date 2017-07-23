@@ -1,0 +1,26 @@
+/* pages/p08/p08.wxss */
+.sec{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+.icon{
+  width: 68rpx;
+  height: 68rpx;
+  margin: 0 0 0 30rpx
+}
+.group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 622rpx;
+  padding: 40rpx 30rpx 40rpx 0;
+}
+.group text{
+  color: #333;
+  font-size: 14px;
+}
+.group image{
+  width: 30rpx;
+  height: 30rpx;
+}

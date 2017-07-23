@@ -1,0 +1,70 @@
+<!--pages/p45-46-47/p45-46-47.wxml-->
+<view class="cont">
+  <view class="header">
+    <view class="title-wrap">
+      <view class="title">
+        <text id="title-main">酷方圈子</text>
+        <text id="title-sub">只关乎职场的社交乐园</text>
+      </view>
+    </view>
+    <view class="login">
+      <view class="{{viewToggle[0]?'active':''}}" data-item="account" bindtap="toggleView">
+        <text>账号登录</text>
+      </view>
+      <view class="{{viewToggle[1]?'active':''}}" data-item="tel" bindtap="toggleView">
+        <text>手机验证码登录</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="middle">
+    <form>
+      <view class="input-wrap" style="display:{{viewToggle[0]?'block':'none'}}">
+        <view class="input-sec">
+          <image src="../../images/icon/login_pre.png"></image>
+          <input placeholder-class="placeholder" placeholder="请输入您的账号或邮箱" />
+        </view>
+        <view class="input-sec">
+          <image src="../../images/icon/login_pre.png"></image>
+          <input placeholder-class="placeholder" placeholder="请输入您的密码" />
+        </view>
+      </view>
+      <view class="input-wrap" style="display:{{viewToggle[1]?'block':'none'}}">
+        <view class="input-sec">
+          <image src="../../images/icon/login_mob.png"></image>
+          <input placeholder-class="placeholder" placeholder="请输入您的手机号" />
+        </view>
+        <view class="input-sec input-bt">
+          <image src="../../images/icon/login_yzm.png"></image>
+          <input placeholder-class="placeholder" placeholder="请输入验证码" />
+          <button class="bt-primary">59秒后重发</button>
+          <button class="bt-inverse">获得验证码</button>
+        </view>
+      </view>
+      <view class="bt-sec">
+        <button class="bt-full">登录</button>
+      </view>
+      <view class="note">
+        <text id="forget">忘记密码</text>
+        <text id="register-now">立即注册</text>
+      </view>
+    </form> 
+  </view>
+
+  <view class="footer">
+    <view id="other">
+      <view class="pad"></view>
+      <text >其它方式登录</text>
+      <view class="pad"></view>
+    </view>
+    <view class="img-sec">
+      <image src="../../images/icon/login_QQ.png"></image>
+      <image src="../../images/icon/login_weixin.png"></image>
+      <image src="../../images/icon/login_weibo.png"></image>
+    </view>
+    
+    
+    
+  </view>
+
+</view>

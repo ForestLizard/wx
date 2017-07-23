@@ -1,0 +1,204 @@
+<!--pages/p25/p25.wxml-->
+<view class="cont">
+  <view class="sec">
+    <view class="media4">
+      <image class="media4-icon" src="../../images/icon/mr_tx.png"></image>
+      <view class="media4-body">
+        <view class="media4-title">
+          <view>
+            <text>匿名</text>
+            <text class="intv-state">已面试：网页设计</text>
+          </view>
+          <text class="media4-time">2017-04-12</text>
+        </view>
+        <view class="media4-footer">
+          <view class="intv-eval-simple">面试官很nice</view>
+          <view class="intv-eval-simple">环境一般般</view>
+          <view class="intv-eval-simple">等的花儿都谢了</view>
+        </view>
+      </view>
+    </view>
+    <view class="star">
+      <view class="star-item">
+        <text>描述相符：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>面试官：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>公司环境：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+    </view>
+    <view class="intv-eval-detail">
+      <text class="intv-eval">面试氛围还不错，面试官也偏向引导你擅长的领域</text>
+      <view class="reply">
+        <image class="hr-reply" src="../../images/icon/hr_hf.png"></image>
+        <text>企业回复：</text>
+        <text class="reply-content">缅川原之回复兮，思禹功而慨然。” 清唐孙华《题王麓台杜陵诗意画册》诗：“翠柏丹枫互蔽亏，阳崖阴壑相回复。</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="media4">
+      <image class="media4-icon" src="../../images/icon/mr_tx.png"></image>
+      <view class="media4-body">
+        <view class="media4-title">
+          <view>
+            <text>匿名</text>
+            <text class="intv-state">已面试：网页设计</text>
+          </view>
+          <text class="media4-time">2017-04-12</text>
+        </view>
+        <view class="media4-footer">
+          <view class="intv-eval-simple">面试官很nice</view>
+          <view class="intv-eval-simple">环境一般般</view>
+          <view class="intv-eval-simple">等的花儿都谢了</view>
+        </view>
+      </view>
+    </view>
+    <view class="star">
+      <view class="star-item">
+        <text>描述相符：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>面试官：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>公司环境：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+    </view>
+    <view class="intv-eval-detail">
+      <text class="intv-eval">面试氛围还不错，面试官也偏向引导你擅长的领域</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="media4">
+      <image class="media4-icon" src="../../images/icon/mr_tx.png"></image>
+      <view class="media4-body">
+        <view class="media4-title">
+          <view>
+            <text>匿名</text>
+            <text class="intv-state">已面试：网页设计</text>
+          </view>
+          <text class="media4-time">2017-04-12</text>
+        </view>
+        <view class="media4-footer">
+          <view class="intv-eval-simple">面试官很nice</view>
+          <view class="intv-eval-simple">环境一般般</view>
+          <view class="intv-eval-simple">等的花儿都谢了</view>
+        </view>
+      </view>
+    </view>
+    <view class="star">
+      <view class="star-item">
+        <text>描述相符：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>面试官：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>公司环境：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+    </view>
+    <view class="intv-eval-detail">
+      <text class="intv-eval">面试氛围还不错，面试官也偏向引导你擅长的领域</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="media4">
+      <image class="media4-icon" src="../../images/icon/mr_tx.png"></image>
+      <view class="media4-body">
+        <view class="media4-title">
+          <view>
+            <text>匿名</text>
+            <text class="intv-state">已面试：网页设计</text>
+          </view>
+          <text class="media4-time">2017-04-12</text>
+        </view>
+        <view class="media4-footer">
+          <view class="intv-eval-simple">面试官很nice</view>
+          <view class="intv-eval-simple">环境一般般</view>
+          <view class="intv-eval-simple">等的花儿都谢了</view>
+        </view>
+      </view>
+    </view>
+    <view class="star">
+      <view class="star-item">
+        <text>描述相符：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>面试官：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+      <view class="star-item">
+        <text>公司环境：</text>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj_full.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+        <image src="../../images/icon/pj.png"></image>
+      </view>
+    </view>
+    <view class="intv-eval-detail">
+      <text class="intv-eval">面试氛围还不错，面试官也偏向引导你擅长的领域</text>
+    </view>
+  </view>
+
+</view>

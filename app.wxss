@@ -1,0 +1,465 @@
+/**app.wxss**/
+/*
+
+/*初始化*/
+page{
+  font-family: '微软雅黑';
+}
+.placeholder{
+  font-family: '微软雅黑';
+  color:#aaa;
+}
+
+input{
+  min-height: 0;
+
+ 
+}
+
+/*最外层容器，*/
+.cont{
+  min-height: 1206rpx;
+  background: #f0f0f0;
+}
+
+button::after{
+
+}
+
+/*时间text*/
+.time{
+  color: #999;
+  font-size: 10px;
+}
+
+
+/*基本按钮*/
+.bt-primary{
+  margin: 0;
+  padding: 15;
+  box-sizing: content-box;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #ffffff;
+  background-color: #56c0b0;
+  font-size: 10px;
+  border-radius: 6rpx;
+}
+/*反色按钮*/
+.bt-inverse{
+  margin: 0;
+  border: 1rpx solid #56c0b0;
+  padding: 15;
+  box-sizing: content-box;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #56c0b0;
+  background-color: #fff;
+  font-size: 10px;
+  border-radius: 6rpx;
+
+}
+/*拒绝按钮*/
+.bt-reject{
+  margin: 0;
+  padding: 15;
+  box-sizing: content-box;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #999;
+  background-color: #ddd;
+  font-size: 10px;
+  border-radius: 6rpx;
+ }
+/*带有删除图标的按钮*/
+.bt-able-delete{
+  position: relative;
+  overflow: visible;
+}
+.bt-able-delete image{
+  position: absolute;
+  right: 0;
+  top:-15rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+
+/*占满屏幕宽度的按钮*/
+.bt-full{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #56c0b0;
+  color:#ffffff;
+  font-size: 14px;
+  border-radius: 6rpx;
+
+}
+
+/*标题图标*/
+.title-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-icon image{
+  width: 80rpx;
+  height: 80rpx;
+  padding-bottom: 20rpx;
+}
+.col2{
+  width: 375rpx;
+}
+
+
+
+/*表单元素*/
+.form-sec{
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 20rpx;
+}
+
+.form-group, .group{
+  padding: 30rpx 30rpx 30rpx 0;
+  border-bottom: 1rpx solid #eeeeee;
+  margin-left: 30rpx;
+
+}
+
+.form-group-last, .group-last{
+  padding: 30rpx 30rpx 30rpx 0;
+  margin-left: 30rpx;
+}
+
+/*表单 选择器元素*/
+.picker{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.picker-name{
+  color: #333;
+  font-size: 14px;
+}
+.picker-body{
+  display: flex;
+  align-items: center;
+}
+.picker-body text{
+  color: #999999;
+  font-size: 14px;
+}
+.picker-body image{
+  padding-left: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+/*媒体框1,基本媒体框*/
+
+.media1{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 0;
+  margin-left: 30rpx;
+  border-bottom: 1rpx solid #eef0ef;
+}
+
+.media1 image{
+  width: 65rpx;
+  height: 65rpx;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+}
+.media1-body{
+  display: flex;
+  flex-direction: column;
+
+}
+.media1-title{
+  color: #333;
+  font-size: 28rpx;
+}
+.media1-content{
+  color: #999999;
+  font-size: 20rpx;
+}
+
+/*媒体框2，对象加入媒体框*/
+.media2{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #eef0ef;
+}
+.media2 image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+}
+.media2-body{
+  display: flex;
+  justify-content: space-between;
+  width: 580rpx;
+}
+.media2-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.media2-left .name{
+  color:#333;
+  font-size: 15px;
+}
+.media2-left .sex,.media2-left .edu,.media2-left .loc{
+  color: #666;
+  font-size: 12px;
+}
+
+.media2-left .message{
+  color: #999;
+  font-size: 12px
+}
+
+.media2-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.media2-right .recieve{
+  display: flex;
+}
+.media2-right .recieve button{
+  width: 68rpx;
+  margin-left: 20rpx !important;
+ 
+}
+
+/*媒体框3，消息提示媒体框*/
+.media3{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #eef0ef;
+}
+.media3 image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+}
+.media3-body{
+  display: flex;
+  justify-content: space-between;
+  width: 580rpx;
+}
+.media3-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.media3-left .name{
+  color:#333;
+  font-size: 15px;
+}
+
+.media3-left .message{
+  color: #999;
+  font-size: 12px
+}
+
+.media3-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+/*消息数为一位数,盒子为圆*/
+.media3-right .mess-num-circle{
+  width:  30rpx;
+  height: 30rpx;
+  line-height:  30rpx;
+  border-radius: 15rpx;
+  color:#ffffff;
+  background-color: #ed322d;
+  font-size: 10px;
+  text-align: center;
+}
+/*消息数为两位数以上*/
+.media3-right .mess-num{
+  
+  height: 30rpx;
+  padding: 0 13rpx;
+  line-height:  30rpx;
+  border-radius: 15rpx;
+  color:#ffffff;
+  background-color: #ed322d;
+  font-size: 10px;
+  text-align: center;
+}
+
+/*媒体框4，三列圈子详细媒体框*/
+.media4{
+ 
+  padding: 30rpx;
+  border-bottom: 1rpx solid #eee;
+  display: flex;
+  align-items: center;
+  color:#999;
+  background-color: #fff;
+}
+.media4-icon{
+  width: 132rpx;
+  height: 132rpx;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+}
+.media4-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 538rpx;
+}
+
+.media4-left{
+  display: flex;
+  flex-direction: column;
+
+}
+.media4-title{
+  color: #333;
+  font-size: 15px;
+  padding-bottom: 20rpx;
+}
+.media4-info{
+  font-size: 13px;
+  padding-bottom: 20rpx;
+}
+.media4-footer{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.media4-footer image{
+  width:30rpx;
+  height: 30rpx;
+  padding-right: 8rpx;
+}
+.media4-footer text{
+  padding-right: 30rpx
+}
+.media4-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.media4-time{
+  padding-bottom: 20rpx;
+  color: #999;
+  font-size: 10px;
+}
+.media4-join, .media4-joined{
+  height: 53rpx;
+  line-height: 53rpx;
+  padding: 0 32rpx;
+  border: 1rpx solid #56c0b0;
+  border-radius: 26rpx;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.media4-salary{
+  color:#56c0b0;
+  font-size: 15px;
+}
+
+
+
+
+/*弹出来的提示框，按钮样式,默认隐藏*/
+.tip-button{
+  display: none;
+  position: absolute;
+  height: 58rpx;
+  line-height: 58rpx;
+  padding: 0 30rpx;
+  color:#eee;
+  background-color: #000;
+  font-size: 14px;
+  border-radius: 30rpx;
+  text-align: center;
+  opacity: 0.8;
+}
+/*遮罩层*/
+.hover{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 750rpx;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.4;
+  transition: 0.6s 0s;
+  z-index: 11;
+}
+
+/*导航条*/
+.nav-bar{
+  position: fixed;
+  top: 0;
+  height: 86rpx;
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  z-index: 10;
+}
+.nav-bar image{
+  width: 40rpx;
+  height:  40rpx;
+}
+.nav-bar image.img-right{
+  width: 40rpx;
+  height:  40rpx;
+  padding-right: 30rpx;
+}
+.nav-bar image.img-left{
+  width: 40rpx;
+  height:  40rpx;
+  padding-left: 30rpx;
+}
+/*黑色导航条*/
+
+.nav-bar-black{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 86rpx;
+  width: 750rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #444;
+  color:#fff;
+  z-index: 10;
+}
+.nav-bar-black image.img-right{
+  width: 40rpx;
+  height:  40rpx;
+  padding-right: 30rpx;
+}
+.nav-bar-black image.img-left{
+  width: 40rpx;
+  height:  40rpx;
+  padding-left: 30rpx;
+}

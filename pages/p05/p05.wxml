@@ -1,0 +1,5 @@
+<!--pages/p05/p05.wxml-->
+<view class="cont">
+  <textarea placeholder-class="placeolder" placeholder="请输入文字"/>
+  <text>5/100</text>
+</view>

@@ -1,0 +1,113 @@
+<!--pages/p22-23/p22-23.wxml-->
+<scroll-view class="cont">
+  <view class="default-box">
+    <view class="sec-recent">
+      <view class="recent-search">
+        <image src="../../images/icon/ser_hot.png"></image>
+        <text>最近搜索</text>
+      </view>
+      <view class="button-box">
+        <button class="bt-primary">网页设计圈</button>
+        <button class="bt-primary">JAVA</button>
+        <button class="bt-primary">网络圈</button>
+        <button class="bt-primary">最牛技术</button>
+      </view>
+    </view>
+
+    <view class="sec-hist">
+      <view class="hist-search">
+        <image src="../../images/icon/ser_hist.png"></image>
+        <text>历史搜索</text>
+      </view>
+      <view class="group">
+        <text>网页</text>
+        <image src="../../images/icon/ser_more_qx.png"></image>
+      </view>
+      <view class="group">
+        <text>JAVA</text>
+        <image src="../../images/icon/ser_more_qx.png"></image>
+      </view>
+      <view class="group">
+        <text>前端</text>
+        <image src="../../images/icon/ser_more_qx.png"></image>
+      </view>
+    </view>
+  </view>
+
+  
+  <view class="result-box">
+    <view class="group">
+      <view class="search-target">
+        <text>搜索“</text>
+        <text  class="keyword">网页</text>
+        <text>“的话题</text>
+      </view>
+      <view class="search-result">
+        <text>共3条结果</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+
+    <view class="group">
+      <view class="search-target">
+        <text>搜索“</text>
+        <text  class="keyword">网页</text>
+        <text>“的圈子</text>
+      </view>
+      <view class="search-result">
+        <text>共0条结果</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text  class="keyword">网页</text>
+        <text>设计师</text>
+      </view>
+      
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text class="keyword">网页</text>
+        <text>设计</text>  
+      </view>
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text class="keyword">网页</text>
+        <text>设计</text>  
+      </view>
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text class="keyword">网页</text>
+        <text>产品设计师</text>  
+      </view>
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text class="keyword">网页</text>
+        <text>美工</text>  
+      </view>
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text class="keyword">网页</text>
+        <text>产品经理</text>  
+      </view>
+    </view>
+  </view>
+
+</scroll-view>

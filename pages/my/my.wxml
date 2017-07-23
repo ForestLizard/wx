@@ -1,0 +1,63 @@
+<!--pages/my/my.wxml-->
+<view class="cont">
+  <form id="new-topic">
+    <view id="uploadimage" class="form-sec">
+      <view class="form-group">
+        <input placeholder-class="placeholder1" placeholder="标题"/>
+      </view>
+      <view class="form-group-last">
+        <textarea placeholder-class="placeholder2" placeholder="内容" />
+      </view>
+      <image id="addphoto" src="../../images/icon/addphoto.png"></image>
+      <image id="addcamera" src="../../images/icon/addcamera.png"></image>
+    </view>
+    <view class="form-sec">
+      <view class="form-group">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            <text class="picker-name">类型</text>
+            <view class="picker-body">
+              <text>普通</text>
+              <image src="../../images/icon/cir_info_right.png"></image>
+            </view> 
+          </view>
+        </picker>
+      </view>
+      <view class="form-group-last">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            <text class="picker-name">隐私</text>
+            <view class="picker-body">
+              <text>所有人可见</text>
+              <image src="../../images/icon/cir_info_right.png"></image>
+            </view>
+          </view>
+        </picker>
+      </view>
+    </view>
+    <view class="form-sec">
+      <view class="form-group">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            <text class="picker-name">评论</text>
+            <view class="picker-body">
+              <text>圈内人可评论</text>
+              <image src="../../images/icon/cir_info_right.png"></image>
+            </view> 
+          </view>
+        </picker>
+      </view>
+      <view class="form-group-last">
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker">
+            <text class="picker-name">转发</text>
+            <view class="picker-body">
+              <text>允许转发</text>
+              <image src="../../images/icon/cir_info_right.png"></image>
+            </view>
+          </view>
+        </picker>
+      </view>
+    </view>
+  </form>
+</view>

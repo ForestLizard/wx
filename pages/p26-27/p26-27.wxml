@@ -1,0 +1,140 @@
+<!--pages/p26-27/p26-27.wxml-->
+<scroll-view class="cont">
+  <view class="header">
+    <image id="avatar" src="../../images/test1.jpg"></image>
+    <text id="company-name">上海酷方网络科技有限公司</text>
+    <text id="company-info" decode="true">武汉市&nbsp;/&nbsp;国企&nbsp;/&nbsp;A轮&nbsp;/&nbsp;金融&nbsp;/&nbsp;50-100人</text>
+  </view>
+
+  <view class="intv">
+    <view class="left">
+      <text>面试评价</text>
+      <text class="num">(10)</text>
+    </view>
+    <view class="right">
+      <text>查看</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav-item {{viewToggle[0]?'nav-item-now':''}}" data-nav-item-name="index" bindtap="toggleView">
+      <text>公司主页</text>
+    </view>
+    <view class="nav-item {{viewToggle[1]?'nav-item-now':''}}" data-nav-item-name="job" bindtap="toggleView">
+      <text>招聘职位</text>
+    </view>
+  </view>
+
+  <scroll-view class="index-box" style="display:{{viewToggle[0]?'block':'none'}}">
+    <view class="group">
+      <text class="group-title">公司产品</text>
+      <view class="group-content">
+        <image src="../../images/test2.jpg"></image>
+        <view class="product">
+          <text class="product-name">我要模考</text>
+          <view class="product-cls">
+            <text>教育</text>
+            <text>在线模考</text>
+          </view>
+          <text class="product-info">在1995年时，由Netscape公司的Brendan Eich，在网景导航者浏览器上首次设计实现而成。因为Netscape与Sun合作，Netscape管理层希望它外观看起来像Java，因此取名为JavaScript。但实际上它的语法风格与Self及Scheme较为接近。</text>
+          <navigator url="https://www.baidu.com/">https://www.baidu.com/</navigator>
+        </view>
+      </view>
+    </view>
+    <view class="group">
+      <text class="group-title">公司简介</text>
+      <text class="company-info">网景导航者浏览器上首次设计实现而成，网景导航者浏览器上首次设计实现而成</text>
+      <view class="img-box">
+        <image src="../../images/company1.jpg"></image>
+        <view class="icon-box">
+          <view class="icon icon-now"></view>
+          <view class="icon"></view>
+          <view class="icon"></view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <scroll-view class="job-box" style="display:{{viewToggle[1]?'block':'none'}}">
+    <view class="media">
+      <view class="media-header">
+        <text class="job-name">应届实习生</text>
+        <text class="job-time">4-15</text>
+      </view>
+      <view class="media-footer">
+        <view class="job-info">
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text>大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text>应届毕业生</text>
+        </view>
+        <text class="job-salary">2K-4K</text>
+      </view>
+    </view>
+
+    <view class="media">
+      <view class="media-header">
+        <text class="job-name">应届实习生</text>
+        <text class="job-time">4-15</text>
+      </view>
+      <view class="media-footer">
+        <view class="job-info">
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text>大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text>应届毕业生</text>
+        </view>
+        <text class="job-salary">2K-4K</text>
+      </view>
+    </view>
+
+    <view class="media">
+      <view class="media-header">
+        <text class="job-name">应届实习生</text>
+        <text class="job-time">4-15</text>
+      </view>
+      <view class="media-footer">
+        <view class="job-info">
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text>大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text>应届毕业生</text>
+        </view>
+        <text class="job-salary">2K-4K</text>
+      </view>
+    </view>
+
+    <view class="media">
+      <view class="media-header">
+        <text class="job-name">应届实习生</text>
+        <text class="job-time">4-15</text>
+      </view>
+      <view class="media-footer">
+        <view class="job-info">
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text>大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text>应届毕业生</text>
+        </view>
+        <text class="job-salary">2K-4K</text>
+      </view>
+    </view>
+
+    <view class="media">
+      <view class="media-header">
+        <text class="job-name">应届实习生</text>
+        <text class="job-time">4-15</text>
+      </view>
+      <view class="media-footer">
+        <view class="job-info">
+          <image src="../../images/icon/hot_xl.png"></image>
+          <text>大专</text>
+          <image src="../../images/icon/hot_gzjy.png"></image>
+          <text>应届毕业生</text>
+        </view>
+        <text class="job-salary">2K-4K</text>
+      </view>
+    </view>
+  </scroll-view>
+</scroll-view>

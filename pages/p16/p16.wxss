@@ -1,0 +1,31 @@
+/* pages/p16/p16.wxss */
+.media4-body{
+  width: 690rpx;
+}
+.media4-title image{
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.media4-adr, .media4-xz, .media4-xl, .media4-gzjy{
+  padding-right: 30rpx;
+}
+.media4-xz{
+  color: #56c0b0;
+}
+
+.media4-time{
+  padding-bottom: 0;
+
+}
+.cancel, .delete, .settop{
+  width: 80rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  margin-top: 15rpx;
+  padding: 0;
+  border-radius: 19rpx;
+}
+.delete{
+  color: #bbb;
+}

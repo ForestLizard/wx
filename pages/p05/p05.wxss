@@ -1,0 +1,24 @@
+/* pages/p05/p05.wxss */
+.placeholder{
+  color:#bbb;
+  
+}
+textarea{
+  width: 100%;
+  height: 310rpx;
+  box-sizing: border-box;
+  margin: 30rpx 0;
+  padding: 30rpx;
+  color: #333;
+  font-size: 14px;
+  background-color: #fff;
+}
+text{
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  color:#56c0b0;
+  font-size: 14px;
+  padding-right: 30rpx;
+  text-align: right;
+}

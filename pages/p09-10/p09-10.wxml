@@ -1,0 +1,114 @@
+<!--pages/p09-10/p09-10.wxml-->
+<scroll-view class="cont">
+  <form class="form form-bt">
+    <view class="sec">
+      <view class="form-group avatar-group">
+        <text class="form-group-left">头像</text>
+        <view class="form-group-right">
+          <image class="avatar" src="../../images/icon/cir_mrtou.png"></image>
+          <image class="go" src="../../images/icon/cir_info_right.png"></image>
+        </view>
+      </view>
+      <view id="circle-name" class="form-group">
+        <text class="form-group-left">圈名</text>
+        <view class="form-group-right">
+          <input placeholder-class="placeholder-right" placeholder="武汉设计圈" />
+        </view>
+      </view>
+      <view id="circle-city" class="form-group">
+        <text class="form-group-left">城市</text>
+        <view class="form-group-right">
+          <picker mode="region" bindchange="bindRegionChange" value="{{region}}">
+            <view class="picker">
+              <text class="picker-result">武汉</text>   
+              <image class="go" src="../../images/icon/cir_info_right.png"></image>
+            </view>
+          </picker>
+        </view>
+      </view>
+      <view id="circle-cls" class="form-group">
+        <text class="form-group-left">职位类别</text>
+        <view class="form-group-right">
+          <picker bindchange="bindJobChange" value="{{index1}}" range="{{jobs}}">
+            <view class="picker">
+              <text  class="picker-result">{{jobs[index1]}}</text>
+              <image class="go" src="../../images/icon/cir_info_right.png"></image>
+            </view>
+          </picker>
+        </view>
+      </view>
+      <view id="circle-way" class="form-group">
+        <text class="form-group-left">入圈方式</text>
+        <view class="form-group-right">
+          <picker bindchange="bindWayChange" value="{{index2}}" range="{{ways}}">
+            <view class="picker">
+              <text class="picker-result">{{ways[index2]}}</text>
+              <image class="go" src="../../images/icon/cir_info_right.png"></image>
+            </view>
+          </picker>
+        </view>
+      </view>
+      <view id="circle-desc" class="form-group-last">
+        <text class="form-group-left">描述</text>
+        <view class="form-group-right">
+          <input placeholder-class="placeholder-right" placeholder="相互分享设计资源、分享素材 "/>
+          <image class="go" src="../../images/icon/cir_info_right.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="sec">
+      <view id="match-label" class="form-group">
+        <text>匹配标签</text>
+        <view class="match-label-group">
+          <button class="bt-inverse bt-able-delete">ps
+            <image src="../../images/icon/cir_del.png"></image>
+          </button>
+          <button class="bt-inverse bt-able-delete">网页设计
+            <image src="../../images/icon/cir_del.png"></image>
+          </button>
+          <button class="bt-inverse bt-able-delete">网页制作
+            <image src="../../images/icon/cir_del.png"></image>
+          </button>
+        </view>
+        <input placeholder-class="placeholder" placeholder="自定义标签"/>
+        <button id="add" class="bt-primary">添加</button>
+      </view>
+      <view id="recommand-label" class="form-group-last">
+        <text>推荐标签</text>
+        <view class="recommand-label-group">
+          <button class="bt-inverse">
+            ps
+          </button>
+          <button class="bt-inverse">
+            网页设计
+          </button>
+          <button class="bt-inverse">
+            网页制作
+          </button>
+          <button class="bt-inverse">
+            DIV+CSS
+          </button>
+          <button class="bt-inverse">
+            美工设计
+          </button>
+          <button class="bt-inverse">
+            CSS3
+          </button>
+          <button class="bt-inverse">
+            前端技术
+          </button>
+          <button class="bt-inverse">
+            后端开发
+          </button>
+          <text id="change">换一批</text>
+        </view>
+      </view>
+    </view>
+  </form>
+
+
+  <text id="mark">注：AAAAAAAAA</text>
+
+</scroll-view>
+

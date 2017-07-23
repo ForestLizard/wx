@@ -1,0 +1,31 @@
+<!--pages/p08/p08.wxml-->
+<view class="cont">
+  <view class="sec">
+    <image class="icon" src="../../images/icon/mentcircle_edit.png"></image>
+    <view class="group">
+      <text>编辑圈子</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+  <view class="sec">
+    <image class="icon" src="../../images/icon/mentcircle_yaoqin.png"></image>
+    <view class="group">
+      <text>邀请朋友</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+  <view class="sec">
+    <image class="icon" src="../../images/icon/mentcircle_quanyao.png"></image>
+    <view class="group">
+      <text>圈友管理</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+  <view class="sec">
+    <image class="icon" src="../../images/icon/mentcircle_zhiwu.png"></image>
+    <view class="group">
+      <text>职位管理</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+</view>

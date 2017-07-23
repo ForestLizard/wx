@@ -1,0 +1,150 @@
+/* pages/p09-10/p09-10.wxss */
+.placeholder{
+  font-family: '微软雅黑';
+  color: #ccc;
+  font-size: 14px;
+  
+}
+.placeholder-right{
+  font-family: '微软雅黑';
+  color:#999;
+  font-size: 14px; 
+  text-align: right;
+
+}
+
+.sec{
+  background-color: #ffffff
+}
+.sec{
+ margin-bottom: 15rpx;
+}
+
+.form-group, .form-group-last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 28rpx;
+  line-height: 28rpx;
+  font-size: 14px;
+}
+
+.form-group-left, #match-label text, #recommand-label text{
+  color: #333;
+  font-size: 14px;
+}
+.form-group-right{
+  display: flex;
+  align-items: center;
+}
+
+.avatar-group{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 20rpx 30rpx 20rpx 0;
+}
+
+
+#circle-name input, #circle-desc input, .picker-result{
+  display: inline-block;
+  width: 500rpx;
+  height: 38rpx;
+  text-align: right;
+  color: #999;
+  font-size: 14px;  
+}
+
+.avatar{
+  width: 80rpx;
+  height: 80rpx;
+
+}
+.go{
+  width: 30rpx;
+  height: 30rpx;
+  padding-left: 10rpx;
+}
+.picker{
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
+
+#match-label, #recommand-label{
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  line-height: aotu;
+}
+#recommand-label{
+  padding: 30rpx 0 20rpx 0;
+}
+
+#recommand-label text ,#match-label text{
+  height: 28rpx;
+  line-height: 28rpx;
+}
+
+.match-label-group{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 690rpx;
+  padding: 30rpx 0;
+}
+.recommand-label-group{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 690rpx;
+  padding-top: 30rpx;
+  
+}
+.match-label-group button, .recommand-label-group button{
+  border-radius: 25rpx !important;
+  height: 20rpx !important;
+  margin-right: 20rpx !important;
+  padding: 15rpx 20rpx !important;
+  line-height: 20rpx !important;
+}
+
+#match-label input{
+  color: #ccc;
+  font-size: 14px;
+  height: 28rpx;
+  line-height: 28rpx;
+}
+
+#add{
+  position: absolute;
+  font-size: 12px;
+  height: 20rpx;
+  line-height: 20rpx;
+  padding: 15rpx 20rpx;
+  bottom: 4rpx;
+  right: 30rpx;
+  border-radius: 27rpx;
+}
+
+
+.recommand-label-group button{
+  margin: 0 10rpx 10rpx 0 !important;
+}
+
+#change{
+  font-size: 12px;
+  padding-left: 40rpx;
+
+}
+
+#mark{
+  margin-top: 30rpx;
+  padding-left: 30rpx;
+  color:#ccc;
+  font-size: 10px;
+}

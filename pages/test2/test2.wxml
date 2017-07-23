@@ -1,0 +1,144 @@
+<!--pages/test2/test2.wxml-->
+<view>
+  <view class="cont">
+    <view class="box1">
+        <image src="../../images/test1.jpeg"></image>
+    </view>
+    <view class="box2">
+      <view class="top person">
+        <text class="name">陈雪</text>
+        <text>/</text>
+        <text class="sex">女</text>
+        <text>/</text>
+        <text class="level">本科</text>
+        <text>/</text>
+        <text class="local">武汉</text>
+      </view>
+      <view class="bottom">
+        <text class="keyword">网页设计 </text>
+        <text class="keyword">网页前端   </text>
+        <text class="keyword">div+css</text>    
+      </view>
+    </view>
+    <view class="box3">
+      <button class="invite">
+        <text class="invite-text">邀请</text>
+      </button>
+    </view>  
+  </view>
+  <view class="cont">
+    <view class="box1">
+        <image src="../../images/test2.jpg"></image>
+    </view>
+    <view class="box2">
+      <view class="top company">
+        <text class="name">武汉中科通达</text>
+        <text class="hr">HR</text>
+      </view>
+      <view class="bottom">
+        <text class="keyword">网页设计 </text>
+        <text class="keyword">网页前端   </text>
+        <text class="keyword">div+css</text>    
+      </view>
+    </view>
+    <view class="box3">
+      <button class="invite">
+        <text class="invite-text">邀请</text>
+      </button>
+    </view>  
+  </view>
+  <view class="cont">
+    <view class="box1">
+        <image src="../../images/test1.jpeg"></image>
+    </view>
+    <view class="box2">
+      <view class="top person">
+        <text class="name">陈雪</text>
+        <text>/</text>
+        <text class="sex">女</text>
+        <text>/</text>
+        <text class="level">本科</text>
+        <text>/</text>
+        <text class="local">武汉</text>
+      </view>
+      <view class="bottom">
+        <text class="keyword">网页设计 </text>
+        <text class="keyword">网页前端   </text>
+        <text class="keyword">div+css</text>    
+      </view>
+    </view>
+    <view class="box3">
+      <button class="invite">
+        <text class="invite-text">邀请</text>
+      </button>
+    </view>  
+  </view>
+  <view class="cont">
+    <view class="box1">
+        <image src="../../images/test2.jpg"></image>
+    </view>
+    <view class="box2">
+      <view class="top company">
+        <text class="name">武汉中科通达</text>
+        <text class="hr">HR</text>
+      </view>
+      <view class="bottom">
+        <text class="keyword">网页设计 </text>
+        <text class="keyword">网页前端   </text>
+        <text class="keyword">div+css</text>    
+      </view>
+    </view>
+    <view class="box3">
+      <button class="invite">
+        <text class="invite-text">邀请</text>
+      </button>
+    </view>  
+  </view>
+  <view class="cont">
+    <view class="box1">
+        <image src="../../images/test1.jpeg"></image>
+    </view>
+    <view class="box2">
+      <view class="top person">
+        <text class="name">陈雪</text>
+        <text>/</text>
+        <text class="sex">女</text>
+        <text>/</text>
+        <text class="level">本科</text>
+        <text>/</text>
+        <text class="local">武汉</text>
+      </view>
+      <view class="bottom">
+        <text class="keyword">网页设计 </text>
+        <text class="keyword">网页前端   </text>
+        <text class="keyword">div+css</text>    
+      </view>
+    </view>
+    <view class="box3">
+      <button class="invite">
+        <text class="invite-text">邀请</text>
+      </button>
+    </view>  
+  </view>
+  <view class="cont">
+    <view class="box1">
+        <image src="../../images/test2.jpg"></image>
+    </view>
+    <view class="box2">
+      <view class="top company">
+        <text class="name">武汉中科通达</text>
+        <text class="hr">HR</text>
+      </view>
+      <view class="bottom">
+        <text class="keyword">网页设计 </text>
+        <text class="keyword">网页前端   </text>
+        <text class="keyword">div+css</text>    
+      </view>
+    </view>
+    <view class="box3">
+      <button class="invite">
+        <text class="invite-text">邀请</text>
+      </button>
+    </view>  
+  </view>
+</view>

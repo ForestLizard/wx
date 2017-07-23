@@ -1,0 +1,48 @@
+/* pages/message/message.wxss */
+.header,.content{
+  background-color: #ffffff;
+}
+.header{
+  display: flex;
+  height: 177rpx;
+  border-bottom: 21rpx solid #f0f0f0;
+  font-size:14px;
+}
+
+.active text{
+  color: #56c0b0
+}
+
+
+.item-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #eef0ef;
+  font-size: 14px;
+  background-color: #ffffff
+}
+
+.item-title{
+  display: flex;
+  align-items: center;
+  color:#333;
+}
+.item-title image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 16rpx;
+}
+.item-header .number{
+  color: #999999;
+}
+
+#tel-list-box .media-box{
+  background-color: #f7faf9;
+}
+
+#news-information-box .media-box{
+  background-color: #ffffff
+}
+

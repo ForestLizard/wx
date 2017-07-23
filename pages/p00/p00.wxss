@@ -1,0 +1,33 @@
+/* pages/p00/p00.wxss */
+
+.header{
+  padding: 30rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #eee;
+}
+.hot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 334rpx;
+  padding: 25rpx 0;
+}
+.hot image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.hot text{
+  padding-left: 20rpx;
+  color: #fff;
+  font-size: 15px;
+}
+#hot-topic{
+ background-color: #56c0b0;
+}
+#hot-job{
+   background-color: #589cc1;
+}
+
+

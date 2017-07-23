@@ -1,0 +1,158 @@
+<!--pages/p24-29-30-33/p24-29-30-33.wxml-->
+<scroll-view class="cont">
+  <view class="nav-bar-black">
+    <view class="praise">
+      <image src="../../images/icon/info_praise.png"></image>
+      <text id="praise-num">112</text>
+    </view>
+    <view class="collect">
+      <image src="../../images/icon/info_collection.png"></image>
+      <text id="collect-num">12</text>
+    </view>
+  </view>
+
+  <scroll-view class="sec-topic">
+    <text class="topic-title">那些炫酷的UI动画师怎么做的？让他来教你</text>
+    <view class="topic-from media1">
+        <image src="../../images/test2.jpg"></image>
+        <view class="media1-body">
+            <text class="media1-title">上海运营圈</text>
+            <text class="media1-content">4-14 11:35</text>
+        </view>
+    </view>
+    <scroll-view class="topic-content">
+      <text>Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如Joomla、Drupal都能很好的支持Markdown。完全采用Markdown编辑器的博客平台有Ghost和Typecho。</text>
+      <image src="../../images/ad.jpg"></image>
+      <text>除此之外，现在由于我们有了RStudio这样的神级编辑器，我们还可以快速将Markdown转化为演讲PPT、Word产品文档、LaTex论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown已经被确立为科学研究规范，极大地推进了动态可重复性研究的历史进程。除此之外，现在由于我们有了RStudio这样的神级编辑器，我们还可以快速将Markdown转化为演讲PPT、Word产品文档、LaTex论文甚至是用非常少量的代码完成最小可用原型。在数据科学领域，Markdown已经被确立为科学研究规范，极大地推进了动态可重复性研究的历史进程。</text>
+    </scroll-view>
+  </scroll-view>
+
+  <scroll-view class="sec-comment">
+    <view class="group">
+      <text>评论</text>
+      <text class="comment-total">15</text>
+    </view>
+    <view class="comment-item">
+      <image class="avatar" src="../../images/test3.jpg"></image>
+      <view class="comment-box">
+        <text decode="true" class="comment-content">
+          <text class="comment-from">外星人</text>:&nbsp;设想一下，会做出什么选择呢？设想一下，会做出什么选择呢？设想一下，会做出什么选择呢？设想一下，会做出什么选择呢？设想一下，会做出什么选择呢？
+        </text>
+        <view class="comment-info">
+          <text decode="true">4-14&nbsp;15:59</text>
+          <view class="user-right">
+            <image src="../../images/icon/praise.png"></image>
+            <text>135</text>
+            <image src="../../images/icon/comments.png"></image>
+          </view>
+        </view>
+        <view class="reply-box">
+          <view class="reply-item">
+            <text decode="true">
+              <text class="reply-from">大神</text>:&nbsp;回复<text class="reply-to">外星人</text>:&nbsp;呵呵，你要是有意见你说啊，阿瓦？
+            </text>
+            <view class="reply-info">
+              <text decode="true">4-14&nbsp;15:59</text>
+              <view class="user-right">
+                <image class="done" src="../../images/icon/praise_full.png"></image>
+                <text>139</text>
+                <image src="../../images/icon/comments.png"></image>
+                <image src="../../images/icon/del_info.png"></image>
+              </view>
+            </view>
+          </view>
+
+          <view class="reply-item">
+            <text decode="true">
+              <text class="reply-from">小海星</text>:&nbsp;回复<text class="reply-to">大神</text>:&nbsp;呵呵，你要是有意见你说啊，阿瓦？
+            </text>
+            <view class="reply-info">
+              <text decode="true">4-14&nbsp;15:59</text>
+              <view class="user-right">
+                <image class="done" src="../../images/icon/praise.png"></image>
+                <text>139</text>
+                <image src="../../images/icon/comments.png"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="comment-item">
+      <image class="avatar" src="../../images/test4.jpg"></image>
+      <view class="comment-box">
+        <text decode="true" class="comment-content">
+          <text class="comment-from">海螺</text>:&nbsp;反正我还是喜欢元首，我觉得是德国人民拖累了他...
+        </text>
+        <view class="comment-info">
+          <text decode="true">4-14&nbsp;15:59</text>
+          <view class="user-right">
+            <image src="../../images/icon/praise.png"></image>
+            <text>135</text>
+            <image src="../../images/icon/comments.png"></image>
+            <image src="../../images/icon/del_info.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <view class="footer" bindtap="myCommentShow">
+    <input placeholder-class="placeholder" placeholder="写出你的神评吧！" />
+  </view>
+</scroll-view>
+
+<view class="hover" style="display:{{shareVisible||myCommentVisible?'block':'none'}}">
+</view>
+<view class="alert" style="display:{{shareVisible?'block':'none'}}">
+  <view class="share">
+    <text>分享到</text>
+    <view class="share-img">
+      <view class="img-sec">
+        <image src="../../images/icon/kf.png"></image>
+        <text>酷方圈子</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/login_weixin.png"></image>
+        <text>微信</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/wyq.png"></image>
+        <text>朋友圈</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/QQ.png"></image>
+        <text>QQ</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/weibo.png"></image>
+        <text>新浪微博</text>
+      </view>
+    </view>
+  </view> 
+  <view class="other">
+    <view class="img-sec">
+        <image src="../../images/icon/to_report.png"></image>
+        <text>举报</text>
+    </view>
+    <view class="img-sec">
+        <image src="../../images/icon/edit.png"></image>
+        <text>编辑</text>
+    </view>
+    <view class="img-sec">
+        <image src="../../images/icon/del.png"></image>
+        <text>删除</text>
+    </view>
+  </view>
+  <view class="cancel" bindtap="shareHide">
+    <text>取消</text>
+  </view>
+</view>
+<view id="my" class="alert" style="display:{{myCommentVisible?'flex':'none'}}">
+  <textarea placeholder-class="placeholder" placeholder="来条神评论吧！" />
+  <view class="button-box">
+    <button class="bt-reject" bindtap="myCommentHide">取消</button>
+    <button class="bt-primary">发送</button>
+  </view>
+</view>

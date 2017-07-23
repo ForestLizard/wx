@@ -1,0 +1,266 @@
+/* pages/p31-34-35-37/p31-34-35-37.wxss */
+
+.nav-bar-black {
+  justify-content: flex-end;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+
+.nav-bar-black image {
+  width: 40rpx;
+  height: 40rpx;
+  padding-left: 30rpx;
+}
+
+.cont {
+  padding-top: 86rpx;
+}
+
+/*job end*/
+
+.job, .company, .content, .apply {
+  background-color: #fff;
+}
+
+/*job*/
+
+.job {
+  padding: 30rpx;
+  border-bottom: 15rpx solid #eee;
+}
+
+.job-title {
+  padding-bottom: 20rpx;
+  font-size: 16px;
+}
+
+.job-name {
+  color: #333;
+}
+
+.job-salary {
+  float: right;
+  color: #56c0b0;
+}
+
+.job-require {
+  line-height: 28rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #eee;
+  color: #666;
+  font-size: 28rpx;
+}
+
+.job-require image {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+
+.job-require text {
+  margin-right: 20rpx;
+}
+
+.job-info {
+  padding-top: 30rpx;
+  color: #999;
+  font-size: 12px;
+}
+
+/*job end*/
+
+/*company*/
+
+.company {
+  display: flex;
+  height: 70rpx;
+  padding: 30rpx;
+  border-bottom: 15rpx solid #eee;
+}
+
+.box1 {
+  float: left;
+  width: 54rpx;
+  padding-right: 20rpx;
+}
+
+.box1 image {
+  vertical-align: middle;
+  width: 54rpx;
+  height: 54rpx;
+  border-radius: 6rpx;
+}
+
+.box2 {
+  width: 577rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.box2 .company-name {
+  display: flex;
+  height: 30rpx;
+  line-height: 30rpx;
+  padding-bottom: 20rpx;
+  font-size: 15px;
+  color: #333;
+}
+
+.box2 .company-name image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.box2 .company-info {
+  color: #999;
+  font-size: 12px;
+}
+
+.box2 .company-info text {
+  margin-right: 10rpx;
+}
+
+.box3 {
+  width: 40rpx;
+}
+
+.box3 image {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+/*company end*/
+
+/*content*/
+
+.content {
+  padding: 30rpx 30rpx 12rpx 30rpx;
+  font-size: 14px;
+  color: #333;
+}
+
+.detail {
+  display: inline-block;
+  width: 690rpx;
+  height: 28rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.content-detail {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30rpx;
+  color: #666;
+}
+
+.content-detail text {
+  line-height: 48rpx;
+  padding-bottom: 20rpx;
+}
+
+/*content end*/
+
+/*apply*/
+
+.apply {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 11rpx 30rpx;
+  box-sizing: border-box;
+  height: 100rpx;
+  width: 750rpx;
+  background-color: #fafafa;
+}
+
+.bt-full {
+  font-size: 16px;
+}
+
+/*apply end*/
+
+.report-box{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  transition: 0.6s 0s;
+  z-index: 12;
+}
+
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #eee;
+  color: #56c0b0;
+  background-color: #fff;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  
+}
+
+.sec-first {
+  color: #333;
+}
+
+.sec-last {
+  margin-top: 15rpx;
+}
+
+.share-box{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  opacity: 1;
+  width: 750rpx;
+  font-family: '微软雅黑';
+  transition: 0.6s 0s;
+  z-index: 12;
+
+
+}
+
+.share{
+  padding: 30rpx;
+  border-bottom: 1rpx solid #ccc;
+  background: #ededed;
+
+}
+.share text{
+  color:#333;
+  font-size: 15px;
+}
+.share-img{
+  display: flex;
+  padding-top: 30rpx;
+}
+.img-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30rpx;
+}
+.img-sec image{
+  width: 114rpx;
+  height: 114rpx;
+  padding-bottom: 20rpx;
+}
+.img-sec text{
+  font-size: 12px;
+}
+
+
+.cancel{
+  height: 98rpx;
+  line-height: 98rpx;
+  font-size: 16px;
+  color:#333;
+  text-align: center;
+  background-color: #fff;
+}

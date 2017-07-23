@@ -1,0 +1,39 @@
+/* pages/p14/p14.wxss */
+.sec{
+  background-color: #fff;
+
+}
+.group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.continue{
+  justify-content: flex-start;
+}
+.search-target{
+  color:#333;
+  font-size: 14px;
+}
+.keyword{
+  color: #56c0b0;
+}
+.search-result{
+  display: flex;
+  align-items: center;
+}
+.search-result text{
+  color:#999;
+  font-size: 10px;
+}
+.search-result image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-left: 20rpx;
+}
+.search-target image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 20rpx;
+}

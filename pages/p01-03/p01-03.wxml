@@ -1,0 +1,15 @@
+<!--pages/p01-03/p01-03.wxml-->
+<view class="cont">
+  <view id="topic" class="box">
+    <image src="../../images/sub/bq_img2.png"></image>
+    <text class="tip1">这里似乎什么也没有呢...</text>
+    <text class="tip2">您可以尝试</text>
+    <button class="bt-primary">去关注喜欢的圈子</button>
+  </view>
+  <view id="job" class="box">
+    <image src="../../images/sub/bq_img4.png"></image>
+    <text class="tip1">亲，您还没有</text>
+    <text class="tip2">关注任何圈子呢</text>
+    <button class="bt-primary">去看看热门职位吧</button>
+  </view>
+</view>

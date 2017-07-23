@@ -1,0 +1,66 @@
+/* pages/p06-07/p06-07.wxss */
+
+.header{
+  padding: 30rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #eee;
+}
+.hot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 334rpx;
+  padding: 25rpx 0;
+}
+.hot image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.hot text{
+  padding-left: 20rpx;
+  color: #fff;
+  font-size: 15px;
+}
+#hot-topic{
+ background-color: #56c0b0;
+}
+#hot-job{
+   background-color: #589cc1;
+}
+
+
+.alert-box{
+  position: fixed;
+  top:567rpx;
+  left: 129rpx;
+  width: 492rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx 0;
+  border-radius: 6rpx;
+  background-color: #fff;
+  font-family: '微软雅黑';
+}
+
+.alert-box text{
+  padding-bottom: 40rpx;
+  color: #333;
+  font-size: 14px;
+ 
+
+}
+.bt-box{
+  display: flex;
+}
+#cancel, #success{
+  height: 26rpx;
+  line-height: 26rpx;
+  padding: 15rpx 20rpx ;
+  font-size: 13px ;
+}
+#cancel{
+  margin-right: 40rpx;
+}

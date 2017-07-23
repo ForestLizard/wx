@@ -1,0 +1,18 @@
+<!--pages/p48-49/p48-49.wxml-->
+<view class="cont">
+  <form class="register">
+    <view class="header">
+      <input class="tel" placeholder-class="placeholder" placeholder="请输入常用手机号" />
+      <input class="verify" placeholder-class="placeholder" placeholder="请输入验证码" />
+      <button class="primary top inverse">59秒后重发</button>
+      <button class="primary bottom">获得验证码</button>
+    </view>
+    <view class="middle">
+      <input class="password" placeholder-class="placeholder" placeholder="请输入密码" />
+      <input class="c-password" placeholder-class="placeholder" placeholder="确认密码" />
+    </view>
+    <view class="footer">
+      <button class="primary full inverse">确认</button>
+    </view>
+  </form>
+</view>

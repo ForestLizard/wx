@@ -1,0 +1,100 @@
+/* pages/test4/test4.wxss */
+.header,.middle,.footer{
+  background-color: #ffffff;
+}
+.placeholder{
+  padding-left: 12rpx;
+  color: #eeeeee;
+  font-family: '微软雅黑';
+  font-size:12px;
+  
+}
+/*header*/
+.register{
+  height: 1206rpx;
+  background-color:#f0f0f0;
+}
+.register input{
+  padding-left: 30rpx;
+  font-size: 12px;
+  font-weight: bold;
+  color: #999999
+}
+.header{
+  position: relative;
+  height: 174rpx;
+  
+  border-bottom: 20rpx solid #eeeeee;
+}
+.header .tel{
+  display: block;
+  height: 87rpx;
+  border-bottom: 1rpx solid #eeeeee;
+
+}
+.header .verify{
+  display: block;
+  height: 86rpx;
+}
+
+.primary{
+  width: 156rpx;
+  height: 44rpx;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  line-height: 44rpx;
+  border: 1rpx solid #56c0b0;
+  color: #56c0b0;
+  border-radius: 22rpx;
+  font-size: 10px;
+  overflow: visible;
+
+}
+
+.inverse{
+  color: #ffffff;
+  background-color: #56c0b0
+}
+.top{
+  position: absolute;
+  top: 45rpx;
+  right: 30rpx;
+}
+.bottom{
+  position: absolute;
+  bottom: 20rpx;
+  right: 30rpx;
+}
+/*header end*/
+
+/*middle */
+.middle{
+  height: 173rpx;
+  border-bottom: 60rpx solid #eeeeee
+}
+.password{
+  height: 86rpx;
+  border-bottom: 1rpx solid #eeeeee
+}
+.c-password{
+  height: 86rpx;
+}
+/*middle end*/
+
+/*footer*/
+
+.footer{
+  height: 67rpx;
+  padding: 0 30rpx 712rpx 30rpx;
+  background-color: #f0f0f0
+}
+.full{
+  width: 690rpx;
+  height: 67rpx;
+  line-height: 67rpx;
+  border-radius: 6rpx;
+  font-size: 14px;
+}
+
+/*footer end*/

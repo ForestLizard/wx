@@ -1,0 +1,45 @@
+<!--pages/p14/p14.wxml-->
+<view class="cont">
+  <view class="sec">
+    <view class="group">
+      <view class="search-target">
+        <text>搜索“</text>
+        <text  class="keyword">设计</text>
+        <text>“的求职者</text>
+      </view>
+      <view class="search-result">
+        <text>共3条结果</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+
+    <view class="group">
+      <view class="search-target">
+        <text>搜索“</text>
+        <text  class="keyword">设计</text>
+        <text>“的企业</text>
+      </view>
+      <view class="search-result">
+        <text>共0条结果</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text  class="keyword">设计</text>
+        <text>师</text>
+      </view>
+      
+    </view>
+
+    <view class="group continue">
+      <view class="search-target">
+        <image src="../../images/icon/cir_ser.png"></image>
+        <text class="keyword">网页</text>
+        <text>设计</text>  
+      </view>
+    </view>
+  </view>
+</view>

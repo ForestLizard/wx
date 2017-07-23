@@ -1,0 +1,125 @@
+<!--pages/p31-34-35-37/p31-34-35-37.wxml-->
+<view class="nav-bar-black">
+  <image src="../../images/icon/info_collection_full.png" bindtap="collect"></image>
+  <image src="../../images/icon/jobsinfo_report.png" bindtap="report"></image>
+  <image src="../../images/icon/jobsinfo_fx.png" bindtap="share"></image>
+</view>
+
+<scroll-view class="cont">
+  <view class="job">
+    <view class="job-title">
+      <text class="job-name">网页设计</text>
+      <text class="job-salary">2K-5K</text>
+    </view>
+    <view class="job-require">
+      <image src="../../images/icon/info_adr.png"></image>
+      <text class="item">武汉</text>
+      <image src="../../images/icon/jobsinfo_zw.png"></image>
+      <text class="item">经验不限</text>
+      <image src="../../images/icon/jobsinfo_xl.png"></image>
+      <text class="item">本科</text>
+      <image src="../../images/icon/jobsinfo_qz.png"></image>
+      <text class="item">全职</text>
+    </view>
+    <view class="job-info">
+      <text>职位诱惑：五险一金、周末双休、包住宿</text>
+    </view>
+  </view>
+  <view class="company">
+    <view class="box1">
+      <image src="../../images/test1.jpeg"></image>
+    </view>
+    <view class="box2">
+      <view class="company-name">
+        <text>上海酷方网络科技有限公司</text>
+        <image src=""></image>
+      </view>
+      <view class="company-info">
+        <text>武汉市</text>
+        <text>/</text>
+        <text>国企</text>
+        <text>/</text>
+        <text>A轮</text>
+        <text>/</text>
+        <text>金融</text>
+      </view>
+    </view>
+    <view class="box3">
+      <image src="../../images/icon/jobsinfo_right.png"></image>
+    </view>
+  </view>
+  <view class="content">
+    <text class='detail'>职位详情</text>
+    <view class="content-detail">
+      <text>岗位职责：</text>
+      <text>1,了解客户服务需求信息,进行有效跟踪,做好售前,售后指导和服务工作; </text>
+      <text>2,熟练运用公司产品,解答客户提问并落实问题; </text>
+      <text>3,与相关部门紧密配合,协调沟通; </text>
+      <text>任职要求：</text>
+      <text>1,大专以上学历(有证券相关从业经验者可放宽学历条件); </text>
+      <text>5,热爱销售工作,抗压能力强,有很好的自我心态调整能力. </text>
+      <text>薪资福利：</text>
+      <text>1,底薪+提成+社保+年休假+福利(无责任底薪,提成不封顶) </text>
+      <text>3,员工享有带薪年假,婚假,丧假,生育假,产假 </text>
+    </view>
+  </view>
+</scroll-view>
+
+<view class="apply">
+  <button class="bt-full">申请职位</button>
+</view>
+
+<view class="hover" style="visibility:{{reportVisibility||shareVisibility?'visible':'hidden'}};opacity:{{reportVisibility||shareVisibility?0.4:0}}">
+</view>
+
+<view class="report-box" style="visibility:{{reportVisibility?'visible':'hidden'}};opacity:{{reportVisibility?1:0}}">
+  <view class="sec sec-first">
+    <text>举报原因</text>
+  </view>
+  <view class="sec">
+    <text>广告或垃圾信息</text>
+  </view>
+  <view class="sec">
+    <text>色情、淫秽或低俗内容</text>
+  </view>
+  <view class="sec">
+    <text>激进时政或意识形态话题</text>
+  </view>
+  <view class="sec">
+    <text>其他原因</text>
+  </view>
+  <view class="sec sec-last" bindtap="cancelReport">
+    <text>取消</text>
+  </view>
+</view>
+
+<view class="share-box" style="visibility:{{shareVisibility?'visible':'hidden'}};opacity:{{shareVisibility?1:0}}">
+  <view class="share">
+    <text>分享到</text>
+    <view class="share-img">
+      <view class="img-sec">
+        <image src="../../images/icon/kf.png"></image>
+        <text>酷方圈子</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/login_weixin.png"></image>
+        <text>微信</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/wyq.png"></image>
+        <text>朋友圈</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/QQ.png"></image>
+        <text>QQ</text>
+      </view>
+      <view class="img-sec">
+        <image src="../../images/icon/weibo.png"></image>
+        <text>新浪微博</text>
+      </view>
+    </view>
+  </view>
+  <view class="cancel" bindtap="cancelShare">
+    <text>取消</text>
+  </view>
+</view>

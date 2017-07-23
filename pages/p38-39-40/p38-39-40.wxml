@@ -1,0 +1,103 @@
+<!--pages/p38-39-40/p38-39-40.wxml-->
+<view class="nav-bar">
+  <image src="../../images/icon/ser_more_qx.png"></image>
+</view>
+<scroll-view class="cont">
+  <view class="group">
+    <view class="group-header">
+      <image src="../../images/icon/hot_xl.png"></image>
+      <text>学历要求</text>
+    </view>
+    <view class="group-content">
+      <button class="bt-primary">全部</button>
+      <button class="bt-reject">小学</button>
+      <button class="bt-reject">初中</button>
+      <button class="bt-reject">高中</button>
+      <button class="bt-reject">中专</button>
+      <button class="bt-reject">大专</button>
+      <button class="bt-reject">本科</button>
+      <button class="bt-reject">硕士</button>
+      <button class="bt-reject">博士</button>
+      <button class="bt-reject">全部</button>
+    </view>
+  </view>
+  <view class="group">
+    <view class="group-header">
+      <image src="../../images/icon/hot_gzjy.png"></image>
+      <text>工作经验</text>
+    </view>
+    <view class="group-content">
+      <button class="bt-reject">全部</button>
+      <button class="bt-reject">应届毕业生</button>
+      <button class="bt-primary">1年以下</button>
+      <button class="bt-reject">1-3年</button>
+      <button class="bt-reject">3-5年</button>
+      <button class="bt-reject">5-10年</button>
+      <button class="bt-reject">10年以上</button>
+    </view>
+  </view>
+  <view class="group">
+    <view class="group-header">
+      <image src="../../images/icon/more_work_xz.png"></image>
+      <text>工作性质</text>
+    </view>
+    <view class="group-content">
+      <button class="bt-reject">全部</button>
+      <button class="bt-reject">全职</button>
+      <button class="bt-primary">兼职</button>
+      <button class="bt-reject">实习</button>
+    </view>
+  </view>
+  <view class="group">
+    <view class="group-header">
+      <image src="../../images/icon/more_time.png"></image>
+      <text>发布时间</text>
+    </view>
+    <view class="group-content">
+      <button class="bt-reject">全部</button>
+      <button class="bt-reject">只看今天</button>
+      <button class="bt-primary">三天内</button>
+      <button class="bt-reject">一周内</button>
+    </view>
+  </view>
+  <view class="group">
+    <view class="group-header-2">
+      <view class="group-left">
+       <image src="../../images/icon/more_rzjd.png"></image>
+      <text>融资阶段</text>
+      </view>
+      <image class="group-right" src="../../images/icon/more_down.png"></image>
+    </view>
+    <view class="group-content">
+      <button class="bt-reject">全部</button>
+      <button class="bt-reject">未融资</button>
+      <button class="bt-primary">天使轮</button>
+      <button class="bt-reject">Rre-A轮</button>
+      <button class="bt-reject">3</button>
+      <button class="bt-reject">5-10年</button>
+      <button class="bt-reject">10年以上</button>
+    </view>
+  </view><view class="group">
+    <view class="group-header-2">
+      <view class="group-left">
+       <image src="../../images/icon/more_hyly.png"></image>
+      <text>行业领域</text>
+      </view>
+      <image class="group-right" src="../../images/icon/more_down.png"></image>
+    </view>
+    <view class="group-content">
+      <button class="bt-reject">全部</button>
+      <button class="bt-reject">计算机软件</button>
+      <button class="bt-primary">计算机硬件</button>
+      <button class="bt-reject">会计</button>
+    </view>
+  </view>
+</scroll-view>
+<view class="footer">
+  <view id="reset">
+    <text>重置</text>
+  </view>
+  <view id="comfirm">
+    <text>确认</text>
+  </view>
+</view>

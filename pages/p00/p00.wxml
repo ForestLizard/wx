@@ -1,0 +1,109 @@
+<!--pages/p00/p00.wxml-->
+<scroll-view class="cont">
+  <view class="header">
+    <view id="hot-topic" class="hot">
+      <image src="../../images/icon/my_topic.png"></image>
+      <text>热门话题</text>
+    </view>
+    <view id="hot-job" class="hot">
+      <image src="../../images/icon/my_cvs.png"></image>
+      <text>热门职位</text>
+    </view>
+  </view>
+  <scroll-view class="content">
+    <view class="media4">
+        <image class="media4-icon" src="../../images/test5.jpg"></image>
+        <view class="media4-body">
+          <view class="media4-left">
+            <text class="media4-title">武汉设计圈</text>
+            <text class="media4-info">网页设计、设计、div</text>
+            <view class="media4-footer">
+              <image src="../../images/icon/cir_adr.png"></image>
+              <text class="media4-adr">武汉</text>
+              <image src="../../images/icon/cir_cy.png"></image>
+              <text class="media4-cy">20</text>
+              <image src="../../images/icon/cir_zw.png"></image>
+              <text class="media4-zw">11</text>
+            </view>
+          </view>
+          <view class="media4-right">
+            <text class="media4-time">2小时以前</text>
+            <button class="bt-inverse media4-join">加入</button>
+          </view>
+        </view>
+    </view>
+    <view class="media4">
+        <image class="media4-icon" src="../../images/test2.jpg"></image>
+        <view class="media4-body">
+          <view class="media4-left">
+            <text class="media4-title">武汉设计圈</text>
+            <text class="media4-info">网页设计、设计、div</text>
+            <view class="media4-footer">
+              <image src="../../images/icon/cir_adr.png"></image>
+              <text class="media4-adr">武汉</text>
+              <image src="../../images/icon/cir_cy.png"></image>
+              <text class="media4-cy">20</text>
+              <image src="../../images/icon/cir_zw.png"></image>
+              <text class="media4-zw">11</text>
+            </view>
+          </view>
+          <view class="media4-right">
+            <text class="media4-time">14：00</text>
+            <button class="bt-inverse media4-joined">已加入</button>
+          </view>
+        </view>
+    </view>
+    <view class="media4">
+        <image class="media4-icon" src="../../images/test5.jpg"></image>
+        <view class="media4-body">
+          <view class="media4-left">
+            <text class="media4-title">武汉设计圈</text>
+            <text class="media4-info">网页设计、设计、div</text>
+            <view class="media4-footer">
+              <image src="../../images/icon/cir_adr.png"></image>
+              <text class="media4-adr">武汉</text>
+              <image src="../../images/icon/cir_cy.png"></image>
+              <text class="media4-cy">20</text>
+              <image src="../../images/icon/cir_zw.png"></image>
+              <text class="media4-zw">11</text>
+            </view>
+          </view>
+          <view class="media4-right">
+            <text class="media4-time">2小时以前</text>
+            <button class="bt-inverse media4-join">加入</button>
+          </view>
+        </view>
+    </view>
+    <view class="media4">
+        <image class="media4-icon" src="../../images/test5.jpg"></image>
+        <view class="media4-body">
+          <view class="media4-left">
+            <text class="media4-title">武汉设计圈</text>
+            <text class="media4-info">网页设计、设计、div</text>
+            <view class="media4-footer">
+              <image src="../../images/icon/cir_adr.png"></image>
+              <text class="media4-adr">武汉</text>
+              <image src="../../images/icon/cir_cy.png"></image>
+              <text class="media4-cy">20</text>
+              <image src="../../images/icon/cir_zw.png"></image>
+              <text class="media4-zw">11</text>
+            </view>
+          </view>
+          <view class="media4-right">
+            <text class="media4-time">2小时以前</text>
+            <button class="bt-inverse media4-join">加入</button>
+          </view>
+        </view>
+    </view>
+  </scroll-view>
+</scroll-view>
+
+
+
+
+
+
+
+
+
+

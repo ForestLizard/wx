@@ -1,0 +1,305 @@
+/* pages/p24-29-30-33/p24-29-30-33.wxss */
+
+.placeholder {
+  color: #aaa;
+}
+
+.cont {
+  padding: 86rpx 0 131rpx 0;
+}
+
+.nav-bar-black {
+  justify-content: flex-end;
+}
+
+.nav-bar-black text {
+  margin-bottom: 30rpx;
+  color: #56c0b0;
+  font-size: 10px;
+}
+
+.praise, .collect {
+  display: flex;
+  align-items: center;
+}
+
+#praise-num {
+  margin-right: 30rpx;
+}
+
+#collect-num {
+  margin-right: 30rpx;
+}
+
+.nav-bar-black image {
+  width: 40rpx;
+  height: 40rpx;
+  padding-right: 5rpx;
+}
+
+.sec-topic {
+  padding: 30rpx;
+  margin-bottom: 15rpx;
+  background: #fff;
+}
+
+.topic-title {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.media1 {
+  padding: 30rpx 30rpx 50rpx 0;
+  border-bottom: 0;
+}
+
+.media1 image {
+  width: 77rpx;
+  height: 77rpx;
+}
+
+.media1-body {
+  justify-content: center;
+}
+
+.media1-title {
+  font-size: 13px;
+  padding-bottom: 20rpx;
+}
+
+.media1-content {
+  font-size: 11px;
+}
+
+.topic-content {
+  display: flex;
+  flex-direction: column;
+  width: 690rpx;
+}
+
+.topic-content text {
+  line-height: 48rpx;
+  font-size: 14px;
+  color: #666;
+}
+
+.topic-content image {
+  width: 690rpx;
+  height: 268rpx;
+  padding: 28rpx 0;
+}
+
+.sec-comment {
+  background-color: #fff;
+}
+
+.group {
+  padding: 30rpx;
+}
+
+.group text {
+  color: #999;
+  font-size: 15px;
+}
+
+.comment-total {
+  padding-left: 25rpx;
+}
+
+.comment-item {
+  display: flex;
+}
+
+.comment-item .avatar {
+  width: 77rpx;
+  height: 77rpx;
+  margin: 30rpx 20rpx 30rpx 30rpx;
+  border-radius: 6rpx;
+}
+
+.comment-box {
+  width: 593rpx;
+  padding: 30rpx 30rpx 30rpx 0;
+  border-bottom: 1rpx solid #eee;
+  margin-bottom: 30rpx;
+  font-size: 12px;
+  color: #333;
+  line-height: 40rpx;
+}
+
+.comment-from {
+  color: #56c0b0;
+}
+
+.comment-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0 24rpx 0;
+}
+
+.comment-info text {
+  color: #999;
+  font-size: 11px;
+}
+
+.user-right {
+  display: flex;
+  align-items: center;
+}
+
+.user-right text {
+  padding-left: 10rpx;
+}
+
+.user-right image {
+  width: 30rpx;
+  height: 30rpx;
+  padding-left: 20rpx;
+}
+
+.reply-box {
+  padding: 24rpx;
+  background-color: #f5f5f5;
+}
+
+.reply-from, .reply-to {
+  color: #56c0b0;
+}
+
+.reply-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20rpx;
+}
+
+.reply-info text {
+  color: #999;
+  font-size: 11px;
+}
+
+.footer {
+  position: fixed;
+  width: 690rpx;
+  bottom: 0;
+  background-color: #fafafa;
+  padding: 12rpx 30rpx 10rpx 30rpx;
+  border-top: 1rpx solid #eee;
+}
+
+.footer input {
+  padding: 26rpx;
+  border: 1rpx solid #eee;
+  color: #aaa;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.alert {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  opacity: 1;
+  width: 750rpx;
+  font-family: '微软雅黑';
+  z-index: 12;
+}
+
+.share {
+  padding: 30rpx;
+  border-bottom: 1rpx solid #ccc;
+  background: #ededed;
+}
+
+.share text {
+  color: #333;
+  font-size: 15px;
+}
+
+.share-img {
+  display: flex;
+  padding-top: 30rpx;
+}
+
+.img-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30rpx;
+}
+
+.img-sec image {
+  width: 114rpx;
+  height: 114rpx;
+  padding-bottom: 20rpx;
+}
+
+.img-sec text {
+  font-size: 12px;
+}
+
+.other {
+  display: flex;
+  padding: 30rpx;
+  background-color: #ededed;
+}
+
+.cancel {
+  height: 98rpx;
+  line-height: 98rpx;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  background-color: #fff;
+}
+
+#my {
+  padding: 30rpx;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 690rpx;
+  z-index: 12;
+}
+
+textarea {
+  height: 328rpx;
+  width: 690rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+  font-size: 14px;
+  color: #aaa;
+  background-color: #fff;
+}
+
+.button-box {
+  display: flex;
+  padding-top: 30rpx;
+}
+
+.bt-primary {
+  padding: 0;
+  box-sizing: border-box;
+  width: 116rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6rpx;
+}
+
+.bt-reject {
+  margin-right: 30rpx;
+  padding: 0;
+  box-sizing: border-box;
+  width: 116rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6rpx;
+}

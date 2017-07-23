@@ -1,0 +1,62 @@
+<!--pages/p50-51/p50-51.wxml-->
+<view class="nav-bar-black">
+  <image src="../../images/icon/mess_look.png" bindtap="showCircle"></image>
+</view>
+
+<scroll-view class="cont">
+  <view class="time">
+    <text>09:38</text>
+  </view>
+  <view class="session-oppo single-line">
+    <image class="avatar" src="../../images/test4.jpg"></image>
+    <image class="arrow-left" src="../../images/icon/mess_dhk_left.png"></image>
+    <text class="">在不？</text>
+  </view>
+  <view class="session-me single-line">
+    <text class="">你好</text>
+    <image class="arrow-right" src="../../images/icon/mess_dhk_right.png"></image>
+    <image class="avatar" src="../../images/test1.jpg"></image>
+  </view>
+  <view class="session-oppo multi-line">
+    <image class="avatar" src="../../images/test4.jpg"></image>
+    <image class="arrow-left" src="../../images/icon/mess_dhk_left.png"></image>
+    <text class="">啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥啥？</text>
+  </view>
+  <view class="session-me multi-line">
+    <text class="">你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！你好！</text>
+    <image class="arrow-right" src="../../images/icon/mess_dhk_right.png"></image>
+    <image class="avatar" src="../../images/test1.jpg"></image>
+  </view>
+</scroll-view>
+
+<view class="footer">
+  <image src="../../images/icon/mes_pq.png"></image>
+  <input id="send" />
+  <button class="bt-primary">发送</button>
+</view>
+
+<view class="hover" style="visibility:{{circleShow?'visible':'hidden'}}"></view>
+
+<view class="circle" style="left:{{circleShow?'135rpx':'750rpx'}}">
+  <view class="sec">
+    <image class="sec-left" src="../../images/icon/mentcircle_xq.png"></image>
+    <view class="sec-content">
+      <text>圈子详情</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+  <view class="sec">
+    <image class="sec-left" src="../../images/icon/mentcircle_zhiwu.png"></image>
+    <view class="sec-content">
+      <text>圈子职位</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+  <view class="sec">
+    <image class="sec-left" src="../../images/icon/mentcircle_quanyao.png"></image>
+    <view class="sec-content sec-content-last">
+      <text>圈友成员</text>
+      <image src="../../images/icon/cir_info_right.png"></image>
+    </view>
+  </view>
+</view>

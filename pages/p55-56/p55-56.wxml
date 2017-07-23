@@ -1,0 +1,81 @@
+<!--pages/p55-56/p55-56.wxml-->
+<view class="nav-bar">
+  <image class="img-right" src="../../images/icon/my_set.png"></image>
+</view>
+<view class="cont">
+  <view class="header">
+    <image id="avatar" src="../../images/test1.jpg"></image>
+    <text id="name">杨米</text>
+    <text id="info" decode="true">女&nbsp;|&nbsp;24&nbsp;|&nbsp;小学&nbsp;|&nbsp;5-10年&nbsp;></text>
+  </view>
+  <view class="nav">
+    <view class="nav-item">
+      <text class="nav-item-top">5</text>
+      <text class="nav-item-bottom">投递成功</text>
+    </view>
+    <view class="nav-item">
+      <text class="nav-item-top">5</text>
+      <text class="nav-item-bottom">被查看</text>
+    </view>
+    <view class="nav-item">
+      <text class="nav-item-top">5</text>
+      <text class="nav-item-bottom">待沟通</text>
+    </view>
+    <view class="nav-item">
+      <text class="nav-item-top">6</text>
+      <text class="nav-item-bottom">邀请面试</text>
+    </view>
+    <view class="nav-item">
+      <text class="nav-item-top">0</text>
+      <text class="nav-item-bottom">不合适</text>
+    </view>
+  </view>
+  <view class="wrap">
+    <view class="sec">
+      <image class="sec-left" src="../../images/icon/my_cvs.png"></image>
+      <view class="sec-content">
+        <text>我的简历</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+    <view class="sec">
+      <image class="sec-left" src="../../images/icon/my_circle.png"></image>
+      <view class="sec-content">
+        <text>我的圈子</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+    <view class="sec sec-last">
+      <image class="sec-left" src="../../images/icon/my_topic.png"></image>
+      <view class="sec-content">
+        <text>我的话题</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="wrap">
+    <view class="sec">
+      <image class="sec-left" src="../../images/icon/my_job.png"></image>
+      <view class="sec-content">
+        <text>职位收藏</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+    <view class="sec sec-last">
+      <image class="sec-left" src="../../images/icon/my_test.png"></image>
+      <view class="sec-content">
+        <text>话题收藏</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="wrap">
+    <view class="sec">
+      <image class="sec-left" src="../../images/icon/my_hist.png"></image>
+      <view class="sec-content">
+        <text>浏览过的圈子</text>
+        <image src="../../images/icon/cir_info_right.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

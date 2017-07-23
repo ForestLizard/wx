@@ -1,0 +1,94 @@
+<!--pages/p11/p11.wxml-->
+<view class="cont">
+  <view class="media4">
+    <image class="media4-icon" src="../../images/test5.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text>陈雪</text>
+          <button id="master" class="bt-primary">圈主</button>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">话题数：15</text>
+          <text class="media4-item">职位数：12</text>
+          <text class="media4-item">简历数：10</text>
+          <text class="media4-item">邀请人数：15</text>
+          <text class="media4-item">登录数：1005</text>
+          <text class="media4-item">评论数：85</text>
+          <text class="media4-item">阅读数：2215</text>
+        </view>
+      </view>
+      
+    </view>
+  </view>
+  <view class="media4">
+    <image class="media4-icon" src="../../images/test5.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text>张三</text>
+          <button class="admin bt-primary">管理员</button>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">话题数：15</text>
+          <text class="media4-item">职位数：12</text>
+          <text class="media4-item">简历数：10</text>
+          <text class="media4-item">邀请人数：15</text>
+          <text class="media4-item">登录数：1005</text>
+          <text class="media4-item">评论数：85</text>
+          <text class="media4-item">阅读数：2215</text>
+        </view>
+      </view>  
+      <view class="media4-right">
+        <button class="cancel bt-inverse">取消管理员</button>
+        <button class="kick bt-inverse">T出圈子</button>
+      </view>
+    </view>
+  </view>
+  <view class="media4">
+    <image class="media4-icon" src="../../images/test5.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text>张三</text>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">话题数：15</text>
+          <text class="media4-item">职位数：12</text>
+          <text class="media4-item">简历数：10</text>
+          <text class="media4-item">邀请人数：15</text>
+          <text class="media4-item">登录数：1005</text>
+          <text class="media4-item">评论数：85</text>
+          <text class="media4-item">阅读数：2215</text>
+        </view>
+      </view>  
+      <view class="media4-right">
+        <button class="set bt-inverse">设为管理员</button>
+        <button class="kick bt-inverse">T出圈子</button>
+      </view>
+    </view>
+  </view>
+  <view class="media4">
+    <image class="media4-icon" src="../../images/test5.jpg"></image>
+    <view class="media4-body">
+      <view class="media4-left">
+        <view class="media4-title">
+          <text>张三</text>
+        </view>
+        <view class="media4-footer">
+          <text class="media4-item">话题数：15</text>
+          <text class="media4-item">职位数：12</text>
+          <text class="media4-item">简历数：10</text>
+          <text class="media4-item">邀请人数：15</text>
+          <text class="media4-item">登录数：1005</text>
+          <text class="media4-item">评论数：85</text>
+          <text class="media4-item">阅读数：2215</text>
+        </view>
+      </view>  
+      <view class="media4-right">
+        <button class="set bt-inverse">设为管理员</button>
+        <button class="kick bt-inverse">T出圈子</button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+/* pages/my_cvs/my_cvs.wxss */
+.placeholder{
+  font-family: "微软雅黑";
+  color: #bbbbbb;
+  text-align: right;
+  line-height: 28rpx;
+}
+#school, #subject{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#school text, #subject text{
+  color: #333;
+  font-size: 14px;
+}
+input{
+  text-align: right;
+  font-size: 14px;
+  height: 28rpx ;
+  line-height: 28rpx;
+  min-height: 0;
+}

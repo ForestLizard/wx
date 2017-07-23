@@ -1,0 +1,93 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/test1/test1",
+    "pages/test2/test2",
+    "pages/test3/test3",
+    "pages/test4/test4",
+    "pages/test5/test5",
+    "pages/login/login",
+    "pages/login2/login2",
+    "pages/hot/hot",
+    "pages/circle/circle",
+    "pages/index2/index2",
+    "pages/jobs_ser/jobs_ser",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/my_cvs/my_cvs",
+    "pages/my_editcvs/my_editcvs",
+    "pages/set/set",
+    "pages/p00/p00",  
+    "pages/p01-03/p01-03",
+    "pages/p02-04/p02-04",
+    "pages/p05/p05",
+    "pages/p06-07/p06-07",
+    "pages/p08/p08",
+    "pages/p09-10/p09-10",
+    "pages/p11/p11",
+    "pages/p12-15/p12-15",
+    "pages/p13/p13",
+    "pages/p14/p14",
+    "pages/p16/p16",
+    "pages/p17-18-19/p17-18-19",
+    "pages/p20/p20",
+    "pages/p21/p21",
+    "pages/p22-23/p22-23",
+    "pages/p24-29-30-33/p24-29-30-33",
+    "pages/p25/p25",
+    "pages/p26-27/p26-27",
+    "pages/p28/p28",
+    "pages/p31-34-35-37/p31-34-35-37",
+    "pages/p32/p32",
+    "pages/p38-39-40/p38-39-40",
+    "pages/p45-46-47/p45-46-47",
+    "pages/p48-49/p48-49",
+    "pages/p50-51/p50-51",
+    "pages/p52-53-54/p52-53-54",
+    "pages/p55-56/p55-56"
+        
+
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "首页",
+        "iconPath": "images/icon/label_home.png",
+        "selectedIconPath": "images/icon/label_home_full.png"
+      },
+      {
+        "pagePath": "pages/p06-07/p06-07",
+        "text": "发现",
+        "iconPath": "images/icon/label_circle.png",
+        "selectedIconPath": "images/icon/label_circle_full.png"
+      },
+      {
+        "pagePath": "pages/p52-53-54/p52-53-54",
+        "text": "消息",
+        "iconPath": "images/icon/label_wz.png",
+        "selectedIconPath": "images/icon/label_wz_full.png"
+      },
+      {
+        "pagePath": "pages/p55-56/p55-56",
+        "text": "我的",
+        "iconPath": "images/icon/label_user.png",
+        "selectedIconPath": "images/icon/label_user_full.png"
+      }
+    ],
+    "color": "#999999",
+    "selectedColor": "#444444",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom"
+  },
+  "debug": true
+}
