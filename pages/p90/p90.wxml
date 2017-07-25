@@ -1,0 +1,18 @@
+<!--pages/p90/p90.wxml-->
+<view class="cont">
+  <form class="register">
+  <view class="header">
+    <text>当前登录账号：1215156155@qq.com</text>
+  </view>
+    <view class="content">
+      <input class="tel" placeholder-class="placeholder" placeholder="请输入绑定的手机号" />
+      <input class="verify" placeholder-class="placeholder" placeholder="请输入验证码" />
+      <button class="primary top inverse">59秒后重发</button>
+      <button class="primary bottom">获得验证码</button>
+    </view>
+    <view class="footer">
+      <button class="primary full inverse">确认</button>
+    </view>
+  </form>
+</view>
+

@@ -1,0 +1,65 @@
+/* pages/p67-68/p67-68.wxss */
+.sec{
+  background-color: #fff;
+  margin-bottom: 16rpx;
+}
+.group, .group-last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.group-left{
+  color:#333;
+  font-size: 14px;
+}
+.group-right{
+  display: flex;
+  align-items: center;
+  color: #bbb;
+  font-size: 14px;
+}
+.group-right text{
+  padding-right: 20rpx;
+}
+.group-right image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.group-center{
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+  justify-content: center;
+}
+.group-center image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 10rpx;
+
+}
+.group-center text{
+  color: #56c0b0;
+  font-size: 14px;
+}
+
+.alert{
+  position: fixed;
+  left: 130rpx;
+  top: 452rpx;
+  z-index: 12;
+  width: 492rpx;
+  height: 175rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+.alert-sec{
+  height: 27rpx;
+  padding: 30rpx 0;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1rpx solid #eee;
+}
+.alert-sec-last{
+  border: 0;
+}

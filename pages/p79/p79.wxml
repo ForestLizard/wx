@@ -1,0 +1,34 @@
+<!--pages/p79/p79.wxml-->
+<view class="nav-bar-black">
+  <text>保存</text>
+</view>
+
+<view class="cont">
+  <form>
+    <view class="form-sec">
+      <view class="form-group">
+        <text class="group-left">奖励名称</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入奖励名称" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">奖励等级</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入奖励等级" />
+        </view>
+      </view>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">获奖时间</text>
+          <view class="group-right">
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+    </view>
+  </form>
+</view>

@@ -1,0 +1,132 @@
+/* pages/p84/p84.wxss */
+.placeholder{
+  font-family: "微软雅黑";
+  color: #ccc;
+  text-align: right;
+
+}
+input{
+  text-align: right
+}
+.sec{
+  background-color: #fff;
+  margin-bottom: 15rpx;
+}
+.group, .group-last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.group-left{
+  color:#333;
+  font-size: 14px;
+}
+.group-right{
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 14px;
+}
+.group-right text{
+  padding-right: 20rpx;
+}
+
+.group-right image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.group-center{
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+  justify-content: center;
+}
+.group-center image{
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 10rpx;
+
+}
+.group-center text{
+  color: #56c0b0;
+  font-size: 14px;
+}
+.switch{
+  width: 75rpx !important;
+  height: 46rpx !important;
+}
+
+#avatar{
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 46rpx;
+}
+.media2{
+  border: 0;
+  padding: 0;
+}
+.media2 .name,.media2 .sex, .media2 .age{
+  font-size: 14px;
+}
+.media2 .message{
+  padding-top: 20rpx;
+  color: #333;
+}
+.media2-right{
+  flex-direction: row;
+}
+.media2 .state{
+  padding-right: 20rpx;
+  font-size: 14px;
+  color: #f27b70;
+}
+.media2-right{
+  align-items: center;
+  justify-content: flex-start;
+} 
+.media2-right image{
+  width: 30rpx;
+  height: 30rpx;
+}
+
+#resume-detail{
+  display: inline-block;
+  padding: 15rpx 30rpx 20rpx 30rpx;
+  font-size: 14px;
+  color: #56c0b0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alert{
+  position: fixed;
+  left: 130rpx;
+  top: 452rpx;
+  z-index: 12;
+  width: 492rpx;
+  height: 175rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+.alert-sec{
+  height: 27rpx;
+  padding: 30rpx 0;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1rpx solid #eee;
+}
+.alert-sec-last{
+  border: 0;
+}
+

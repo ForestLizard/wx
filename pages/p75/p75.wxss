@@ -1,0 +1,55 @@
+/* pages/p75/p75.wxss */
+.placeholder{
+  font-family: "微软雅黑";
+  color: #ccc;
+  text-align: right;
+
+}
+input{
+  text-align: right
+}
+.form-sec{
+  background-color: #fff;
+  margin-bottom: 16rpx;
+}
+.form-group, .form-group-last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.group-left{
+  color:#333;
+  font-size: 14px;
+}
+.group-right{
+  display: flex;
+  align-items: center;
+  color: #bbb;
+  font-size: 14px;
+}
+.group-right text{
+  padding-right: 20rpx;
+}
+.group-right image{
+  width: 20rpx;
+  height: 20rpx;
+}
+
+#avatar{
+  width: 80rpx;
+  height:  80rpx;
+  padding-right: 10rpx;
+}
+
+.bt-full{
+  width: 690rpx;
+  background-color: #56c0b0;
+  color: #fff;
+}
+#save{
+  margin-top: 60rpx;
+}
+#delete{
+  margin-top: 30rpx;
+  background-color: #f27b70
+}

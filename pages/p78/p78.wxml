@@ -1,0 +1,71 @@
+<!--pages/p78/p78.wxml-->
+<view class="nav-bar-black">
+  <text>保存</text>
+</view>
+
+<view class="cont">
+  <form>
+    <view class="form-sec">
+      <view class="form-group">
+        <text class="group-left">项目名称</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入项目名称" />
+        </view>
+      </view>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">起始时间</text>
+          <view class="group-right">
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">完成时间</text>
+          <view class="group-right">
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <view class="form-group">
+        <text class="group-left">开发工具</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入开发工具名称" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">硬件环境</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入硬件环境" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">软件环境</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入软件环境" />
+        </view>
+      </view>
+
+      <view class="form-group ">
+        <text class="group-left">项目描述</text>
+        <view class="group-right">
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+
+      <view class="form-group-last">
+        <text class="group-left">责任描述</text>
+        <view class="group-right">
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+
+    </view>
+  </form>
+</view>

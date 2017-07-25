@@ -1,0 +1,57 @@
+<!--pages/p67-68/p67-68.wxml-->
+<view class="cont">
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">杨米简历</text>
+      <view class="group-right">
+        <text>完整度：50%</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-last">
+      <text class="group-left">运营简历</text>
+      <view class="group-right">
+        <text>完整度：60%</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group" bindtap="showAlert">
+      <text class="group-left">默认投递</text>
+      <view class="group-right">
+        <text>杨米简历%</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-last">
+      <text class="group-left">删除简历</text>
+      <view class="group-right">
+
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>创建新简历</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group-center">
+      <image src="../../images/icon/addwordcvs.png"></image>
+      <text>上传简历文档</text>
+    </view>
+  </view>
+</view>
+
+<view class="hover" style="display:{{alertShow?'block':'none'}}"></view>
+
+<view class="alert" style="display:{{alertShow?'block':'none'}}">
+  <view class="alert-sec">杨米简历</view>
+  <view class="alert-sec alert-sec-last">运营简历</view>
+</view>

@@ -2,11 +2,6 @@
   "pages":[
     "pages/logs/logs",
     "pages/index/index",
-    "pages/test1/test1",
-    "pages/test2/test2",
-    "pages/test3/test3",
-    "pages/test4/test4",
-    "pages/test5/test5",
     "pages/login/login",
     "pages/login2/login2",
     "pages/hot/hot",
@@ -45,9 +40,32 @@
     "pages/p48-49/p48-49",
     "pages/p50-51/p50-51",
     "pages/p52-53-54/p52-53-54",
-    "pages/p55-56/p55-56"
-        
-
+    "pages/p55-56/p55-56",
+    "pages/p57-58-59/p57-58-59",
+    "pages/p60-61-62/p60-61-62",
+    "pages/p62/p62",
+    "pages/p67-68/p67-68",
+    "pages/p69/p69",
+    "pages/p70-73-74/p70-73-74",
+    "pages/p71/p71",
+    "pages/p72/p72",
+    "pages/p75/p75",
+    "pages/p76-77-81/p76-77-81",
+    "pages/p77/p77",        
+    "pages/p78/p78",
+    "pages/p79/p79",
+    "pages/p80/p80",
+    "pages/p82/p82",
+    "pages/p83/p83",
+    "pages/p84/p84",
+    "pages/p85/p85",
+    "pages/p86-87-88/p86-87-88",
+    "pages/p89/p89",
+    "pages/p90/p90",
+    "pages/p91/p91",
+    "pages/p92/p92",
+    "pages/p93/p93"
+  
     
   ],
   "window":{

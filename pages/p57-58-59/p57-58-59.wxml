@@ -1,0 +1,183 @@
+<!--pages/p57-58-59/p57-58-59.wxml-->
+<view class="nav">
+  <view class="nav-item {{viewToggle[0]?'nav-item-now':''}}" data-nav-item-name="create" bindtap="toggleView">我开通的圈子</view>
+  <view class="nav-item {{viewToggle[1]?'nav-item-now':''}}" data-nav-item-name="join" bindtap="toggleView">我加入的圈子</view>
+</view>
+<view class="cont">
+  <view class="create-box" style="display: {{viewToggle[0]?'block':'none'}}">
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test5.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+          <image class="media4-role-master" src="../../images/icon/circle_main.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+          <image class="media4-role-master" src="../../images/icon/circle_main.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test3.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+          <image class="media4-role-master" src="../../images/icon/circle_main.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test4.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+          <image class="media4-role-master" src="../../images/icon/circle_main.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="join-box" style="display: {{viewToggle[1]?'block':'none'}}">
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">上海设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+          <image class="media4-role-admin" src="../../images/icon/administrator.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">上海设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">上海设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="media4">
+      <image class="media4-icon" src="../../images/test1.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">上海设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
+          </view>
+        </view>
+        <view class="media4-right">
+          <text class="media4-time">4-25</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

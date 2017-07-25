@@ -1,0 +1,50 @@
+/* pages/p80/p80.wxss */
+.nav-bar-black{
+  justify-content: flex-end
+}
+.nav-bar-black text{
+  color:#56c0b0;
+  font-size: 16px;
+  padding-right: 30rpx;
+}
+
+.cont{
+  padding-top: 86rpx;
+}
+
+.placeholder{
+  font-family: "微软雅黑";
+  color: #ccc;
+  text-align: right;
+
+}
+input{
+  text-align: right
+}
+.form-sec{
+  background-color: #fff;
+  margin-bottom: 16rpx;
+}
+.form-group, .form-group-last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.group-left{
+  color:#333;
+  font-size: 14px;
+}
+.group-right{
+  display: flex;
+  align-items: center;
+  color: #bbb;
+  font-size: 14px;
+}
+.group-right text{
+  padding-right: 20rpx;
+}
+.group-right image{
+  width: 20rpx;
+  height: 20rpx;
+}
+

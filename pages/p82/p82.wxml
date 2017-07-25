@@ -1,0 +1,27 @@
+<!--pages/p82/p82.wxml-->
+<view class="nav-bar-black">
+  <text>保存</text>
+</view>
+
+<view class="cont">
+  <form>
+    <view class="form-sec">
+      <view class="form-group">
+        <text class="group-left">技能名称</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入技能名称" />
+        </view>
+      </view>
+
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group-last picker">
+          <text class="group-left">熟练程度</text>
+          <view class="group-right">
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+    </view>
+  </form>
+</view>

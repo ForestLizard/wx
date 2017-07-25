@@ -1,0 +1,434 @@
+<!--pages/p85/p85.wxml-->
+<scroll-view class="cont">
+  <view class="header">
+    <image id="avatar" src="../../images/test3.jpg"></image>
+    <view id="primary-info">
+      <text id="name">杨米</text>
+      <text id="sex">女</text>
+      <text>|</text>
+      <text id="age">24</text>
+    </view>
+    <text id="character">擅长构思、独立思考、认真负责</text>
+
+  </view>
+  <view class="content">
+    <view class="sec">
+      <view class="group">
+        <text>基本信息</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">最高学历</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">工作年限</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">手机号码</text>
+          <text>：</text>
+          <text class="keyword-value">1315454545</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">邮箱地址</text>
+          <text>：</text>
+          <text class="keyword-value">1097090724@qq.com</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">QQ联系</text>
+          <text>：</text>
+          <text class="keyword-value">1097090725</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">微信联系</text>
+          <text>：</text>
+          <text class="keyword-value">weixin@163</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">所在城市</text>
+          <text>：</text>
+          <text class="keyword-value">武汉</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">户口地</text>
+          <text>：</text>
+          <text class="keyword-value">武汉</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>求职意向</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">最高学历</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">工作年限</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">手机号码</text>
+          <text>：</text>
+          <text class="keyword-value">1315454545</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">邮箱地址</text>
+          <text>：</text>
+          <text class="keyword-value">1097090724@qq.com</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">QQ联系</text>
+          <text>：</text>
+          <text class="keyword-value">1097090725</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">微信联系</text>
+          <text>：</text>
+          <text class="keyword-value">weixin@163</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">所在城市</text>
+          <text>：</text>
+          <text class="keyword-value">武汉</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">户口地</text>
+          <text>：</text>
+          <text class="keyword-value">武汉</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>工作经历</text>
+      </view>
+      <view class="sec-content sec-contentborder">
+        <view class="sec-content-item">
+          <text class="keyword">公司名称</text>
+          <text>：</text>
+          <text class="keyword-value">酷方</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">公司规模</text>
+          <text>：</text>
+          <text class="keyword-value">15-50人</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">职位名称</text>
+          <text>：</text>
+          <text class="keyword-value">UI设计</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">工作时间</text>
+          <text>：</text>
+          <text class="keyword-value">2016.4至今</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">工作描述</text>
+          <text>：</text>
+          <text class="keyword-value">巴拉巴拉巴拉</text>
+        </view>
+      </view>
+
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">公司名称</text>
+          <text>：</text>
+          <text class="keyword-value">美的</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">公司规模</text>
+          <text>：</text>
+          <text class="keyword-value">2000人以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">职位名称</text>
+          <text>：</text>
+          <text class="keyword-value">UI设计</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">工作时间</text>
+          <text>：</text>
+          <text class="keyword-value">2016.4至今</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">工作描述</text>
+          <text>：</text>
+          <text class="keyword-value">巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉巴拉
+            </text>
+        </view>
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>教育经历</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">学校名称</text>
+          <text>：</text>
+          <text class="keyword-value">武汉小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">学习时间</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">所学专业</text>
+          <text>：</text>
+          <text class="keyword-value">计算机科学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">获得学历</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>培训经历</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">培训课程</text>
+          <text>：</text>
+          <text class="keyword-value">UI设计</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">培训机构</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">培训时间</text>
+          <text>：</text>
+          <text class="keyword-value">计算机科学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">详细描述</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>专业技能</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">技能名称</text>
+          <text>：</text>
+          <text class="keyword-value">武汉小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">熟练程度</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>专业证书</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">证书名称</text>
+          <text>：</text>
+          <text class="keyword-value">计算机二级证</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">获得时间</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>学生奖励</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">奖励名称</text>
+          <text>：</text>
+          <text class="keyword-value">武汉小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">奖励等级</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">获奖时间</text>
+          <text>：</text>
+          <text class="keyword-value">计算机科学</text>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>语言能力</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">语言类别</text>
+          <text>：</text>
+          <text class="keyword-value">武汉小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">掌握程度</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">读写能力</text>
+          <text>：</text>
+          <text class="keyword-value">计算机科学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">听说能力</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>项目经验</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">项目名称</text>
+          <text>：</text>
+          <text class="keyword-value">武汉小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">所用时间</text>
+          <text>：</text>
+          <text class="keyword-value">10年以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">开发工具</text>
+          <text>：</text>
+          <text class="keyword-value">计算机科学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">硬件环境</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">软件环境</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">项目描述</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">责任描述</text>
+          <text>：</text>
+          <text class="keyword-value">小学</text>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="sec">
+      <view class="group">
+        <text>作品展示</text>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">在线作品</text>
+
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">作品地址</text>
+          <text>：</text>
+          <text class="keyword-value">https://translate.google.cn</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">作品描述</text>
+          <text>：</text>
+          <text class="keyword-value">计算机科学</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="sec sec-last">
+      <view class="group">
+        <text>作品展示</text>
+      </view>
+      <view class="sec-contentborder">
+        <view class="sec-content-item">
+          <text class="keyword">在线作品</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">作品地址</text>
+          <text>：</text>
+          <text class="keyword-value">https://translate.google.cn</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">作品描述</text>
+          <text>：</text>
+          <text class="keyword-value">计算机科学</text>
+        </view>
+      </view>
+      <view class="sec-content">
+        <view class="sec-content-item">
+          <text class="keyword">图片作品</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">作品名称</text>
+          <text>：</text>
+          <text class="keyword-value">2000人以上</text>
+        </view>
+        <view class="sec-content-item">
+          <text class="keyword">作品描述</text>
+          <text>：</text>
+          <text class="keyword-value">UI设计</text>
+        </view>
+        <view class="img-box">
+          <image src="../../images/company1.jpg"></image>
+          <view class="icon-box">
+            <view class="icon icon-now"></view>
+            <view class="icon"></view>
+            <view class="icon"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+
+
+</scroll-view>

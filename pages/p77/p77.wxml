@@ -1,0 +1,8 @@
+<!--pages/p77/p77.wxml-->
+<view class="nav-bar-black">
+  <image class="img-right" src="../../images/icon/my_del.png"></image>
+</view>
+
+<view class="cont">
+  <image src="../../images/test3.jpg"></image>
+</view>

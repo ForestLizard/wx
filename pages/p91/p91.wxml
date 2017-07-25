@@ -1,0 +1,15 @@
+<!--pages/p91/p91.wxml-->
+
+<view class="cont">
+  <view class="sec">
+    <view class="group-last">
+      <view class="group-right">
+        <input class="tel" placeholder-class="placeholder" placeholder="请输入好友给你的邀请码" />
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <button class="bt-full">确认</button>
+  </view>
+
+</view>

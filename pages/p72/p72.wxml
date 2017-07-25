@@ -1,0 +1,63 @@
+<!--pages/p72/p72.wxml-->
+
+<view class="cont">
+  <form>
+    <view class="form-sec">
+
+      <view class="form-group">
+        <text class="group-left">期望职位</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="输入期望职位" />
+        </view>
+      </view>
+
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">工作性质</text>
+          <view class="group-right">
+            <text>全职</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">期望城市</text>
+          <view class="group-right">
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker form-group">
+          <text class="group-left">期望薪资</text>
+          <view class="group-right">
+            <text>2K以下</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker form-group">
+          <text class="group-left">到岗时间</text>
+          <view class="group-right">
+            <text>即时</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <view class="picker form-group">
+        <text class="group-left">工作描述</text>
+        <view class="group-right">
+          <text></text>
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,27 @@
+<!--pages/p83/p83.wxml-->
+<view class="nav-bar-black">
+  <text>保存</text>
+</view>
+
+<view class="cont">
+  <form>
+    <view class="form-sec">
+      <view class="form-group">
+        <text class="group-left">专业证书</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入专业证书" />
+        </view>
+      </view>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group-last picker">
+          <text class="group-left">获得时间</text>
+          <view class="group-right">
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+    </view>
+  </form>
+</view>

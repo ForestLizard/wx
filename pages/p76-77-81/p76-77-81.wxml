@@ -1,0 +1,54 @@
+<!--pages/p76-77-81/p76-77-81.wxml-->
+<view class="nav-bar-black">
+  <text>保存</text>
+</view>
+
+<view class="nav">
+  <view class="nav-item {{viewToggle[0]?'nav-item-now':''}}" data-nav-item-name="image" bindtap="toggleView">图片作品</view>
+  <view class="nav-item {{viewToggle[1]?'nav-item-now':''}}" data-nav-item-name="online" bindtap="toggleView">在线作品</view>
+</view>
+
+<view class="cont" style="display: {{viewToggle[0]?'block':'none'}}">
+  <form style="">
+    <view class="form-sec">
+      <view class="form-group">
+        <text class="group-left">作品名称</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入作品名称" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">作品描述</text>
+        <view class="group-right">
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+
+      <view class="form-group-last">
+        <image class="works" src="../../images/test4.jpg"></image>
+        <image class="works" src="../../images/icon/my_addphoto.png"></image>
+      </view>
+    </view>
+  </form>
+</view>
+<view class="cont" style="display: {{viewToggle[1]?'block':'none'}}">
+  <form style="">
+    <view class="form-sec">
+      <view class="form-group">
+        <text class="group-left">作品地址</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="请输入作品网址" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">作品描述</text>
+        <view class="group-right">
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+    </view>
+
+  </form>
+</view>

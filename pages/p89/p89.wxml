@@ -1,0 +1,35 @@
+<!--pages/p89/p89.wxml-->
+<!--pages/p67-68/p67-68.wxml-->
+<view class="cont">
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">绑定邀请码</text>
+      <view class="group-right">
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group">
+      <text class="group-left">更换手机号</text>
+      <view class="group-right">
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-last">
+      <text class="group-left">设置密码</text>
+      <view class="group-right">
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group-center">
+      <text>退出登录</text>
+    </view>
+  </view>
+
+  <view class="tip">
+    <text>注： 如果使用邮箱登录的，更换手机号变为绑定手机号</text>
+  </view>
+</view>
+

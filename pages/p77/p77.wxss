@@ -1,0 +1,18 @@
+/* pages/p77/p77.wxss */
+
+.nav-bar-black{
+  justify-content: flex-end
+}
+.cont{
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 86rpx;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.cont image{
+  width: 750rpx;
+  height: 750rpx;
+}

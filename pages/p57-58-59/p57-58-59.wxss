@@ -1,0 +1,97 @@
+/* pages/p57-58-59/p57-58-59.wxss */
+.nav{
+  display: flex;
+  background-color: #fff;
+  position: fixed;
+}
+.nav-item{
+  width: 375rpx;
+  padding: 25rpx 0;
+  color: #999;
+  font-size: 13px;
+  text-align: center;
+}
+.nav-item-now{
+  position: relative;
+  color: #56c0b0;
+}
+.nav-item-now::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2rpx;
+  left: 0;
+  bottom:  -1rpx;
+  background-color: #56c0b0;
+}
+.cont{
+  padding-top: 82rpx;
+}
+
+.media4{
+  margin-top: 16rpx;
+  padding: 30rpx;
+  border-bottom: 1rpx solid #eee;
+  display: flex;
+  align-items: center;
+  color:#999;
+  background-color: #fff;
+}
+.media4-icon{
+  width: 132rpx;
+  height: 132rpx;
+  margin-right: 20rpx;
+  border-radius: 6rpx;
+}
+.media4-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 538rpx;
+}
+
+.media4-left{
+  display: flex;
+  flex-direction: column;
+
+}
+.media4-title{
+  color: #333;
+  font-size: 15px;
+  padding-bottom: 20rpx;
+}
+.media4-info{
+  font-size: 13px;
+  padding-bottom: 20rpx;
+}
+.media4-footer{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.media4-footer image{
+  width:30rpx;
+  height: 30rpx;
+  padding-right: 8rpx;
+}
+.media4-footer text{
+  padding-right: 30rpx
+}
+.media4-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.media4-time{
+  padding-bottom: 20rpx;
+  color: #999;
+  font-size: 10px;
+}
+.media4-role-master{
+  width:85rpx;
+  height: 47rpx;
+}
+.media4-role-admin{
+  width:109rpx;
+  height: 47rpx;
+}

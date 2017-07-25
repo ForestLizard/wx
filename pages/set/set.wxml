@@ -1,18 +1,2 @@
 <!--pages/set/set.wxml-->
-<view class="cont pos">
-  <form id="set-pswd">
-    <view class="form-sec">
-      <view id="pswd-old" class="form-group">
-        <input placeholder-class="placeholder" placeholder="当前密码"/>
-      </view>
-      <view id="pswd-new" class="form-group">
-        <input placeholder-class="placeholder" placeholder="新密码"/>
-      </view>
-      <view id="pswd-comfirm" class="form-group-last">
-        <input placeholder-class="placeholder" placeholder="确认新密码"/>
-      </view>
-    </view>
-    <button id="comfirm" class="bt-full">确认</button>
-  </form>
-  <view id="success" class="tip-button">修改密码成功</view>
-</view>
+<text>pages/set/set.wxml</text>

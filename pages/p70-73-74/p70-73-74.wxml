@@ -1,0 +1,62 @@
+<!--pages/p70-73-74/p70-73-74.wxml-->
+
+<view class="cont">
+  <form>
+    <view class="form-sec">
+
+      <view class="form-group">
+        <text class="group-left">公司名称</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="输入公司名称" />
+        </view>
+      </view>
+
+
+      <view class="form-group picker">
+        <text class="group-left">职位名称</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="输入职位名称" />
+        </view>
+      </view>
+
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">入职时间</text>
+          <view class="group-right">
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker form-group">
+          <text class="group-left">离职时间</text>
+          <view class="group-right">
+            <text>1-3年</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker form-group">
+          <text class="group-left">公司规模</text>
+          <view class="group-right">
+            <text>50-150人</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <view class="picker form-group">
+        <text class="group-left">工作描述</text>
+        <view class="group-right">
+          <text></text>
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+    </view>
+  </form>
+</view>

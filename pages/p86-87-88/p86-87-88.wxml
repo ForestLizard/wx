@@ -1,0 +1,40 @@
+<!--pages/p86-87-88/p86-87-88.wxml-->
+<view class="cont">
+  <view class="scroll" style="left:{{scroll}}rpx">
+    <view class="sec">
+      <view class="header">
+        <text class="title">酷方圈子</text>
+        <text class="title-sub">只关乎职场的社交乐园</text>
+      </view>
+      <view class="icon">
+        <view class="icon-item {{scroll===0?'icon-item-now':''}}" data-icon-index="0" bindtap="scroll"></view>
+        <view class="icon-item {{scroll===-750?'icon-item-now':''}}" data-icon-index="1" bindtap="scroll"></view>
+        <view class="icon-item {{scroll===-1500?'icon-item-now':''}}" data-icon-index="2" bindtap="scroll"></view>
+      </view>
+    </view>
+
+    <view class="sec sec-r1">
+
+      <image class="header-img" src="../../images/test3.jpg"></image>
+
+      <view class="middle">
+        <text class="info">职场资讯</text>
+        <text class="info-sub">有你最感兴趣的职场话题</text>
+      </view>
+      <view class="icon">
+       <view class="icon-item {{scroll===0?'icon-item-now':''}}" data-icon-index="0" bindtap="scroll"></view>
+        <view class="icon-item {{scroll===-750?'icon-item-now':''}}" data-icon-index="1" bindtap="scroll"></view>
+        <view class="icon-item {{scroll===-1500?'icon-item-now':''}}" data-icon-index="2" bindtap="scroll"></view>
+      </view>
+    </view>
+
+    <view class="sec sec-r2" data-icon-index="3" bindtap="scroll">
+      
+      <view class="icon">
+        <view class="icon-item {{scroll===0?'icon-item-now':''}}" data-icon-index="0" bindtap="scroll"></view>
+        <view class="icon-item {{scroll===-750?'icon-item-now':''}}" data-icon-index="1" bindtap="scroll"></view>
+        <view class="icon-item {{scroll===-1500?'icon-item-now':''}}" data-icon-index="2" bindtap="scroll"></view>
+      </view>
+    </view>
+  </view>
+</view>

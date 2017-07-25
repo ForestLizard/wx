@@ -1,0 +1,24 @@
+<!--pages/p93/p93.wxml-->
+<view class="cont">
+  <view class="sec">
+    <view class="group">
+      <view class="group-right">
+        <input class="tel" placeholder-class="placeholder" placeholder="当前密码" />
+      </view>
+    </view>
+    <view class="group">
+      <view class="group-right">
+        <input class="tel" placeholder-class="placeholder" placeholder="新密码" />
+      </view>
+    </view>
+    <view class="group-last">
+      <view class="group-right">
+        <input class="tel" placeholder-class="placeholder" placeholder="确认新密码" />
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <button class="bt-full" bindtap="changePswd">确认</button>
+  </view>
+</view>
+<view id="success" class="tip-button" style="display: {{success?'block':'none'}}">修改密码成功</view>

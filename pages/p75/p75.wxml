@@ -1,0 +1,51 @@
+<!--pages/p75/p75.wxml-->
+<view class="cont">
+  <form>
+    <view class="form-sec">
+
+      <view class="form-group">
+        <text class="group-left">培训课程</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="ps" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">培训机构</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="酷方培训" />
+        </view>
+      </view>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">入学时间</text>
+          <view class="group-right">
+            <text>2013.9</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker form-group">
+          <text class="group-left">毕业时间</text>
+          <view class="group-right">
+            <text>2013.12</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <view class="form-group">
+        <text class="group-left">详细描述</text>
+        <view class="group-right">
+          <text>javascript从入门到精通......</text>
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+    </view>
+    <button id="save" class="bt-full">保存</button>
+    <button id="delete" class="bt-full">删除</button>
+  </form>
+</view>

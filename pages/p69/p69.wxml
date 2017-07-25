@@ -1,0 +1,76 @@
+<!--pages/p69/p69.wxml-->
+<view class="cont">
+  <form id="person-info">
+    <view class="form-sec">
+      <view class="form-group">
+        <text class="group-left">头像</text>
+        <view class="group-right">
+          <image id="avatar" src="../../images/icon/cir_mrtou.png"></image>
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">姓名</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="输入姓名" />
+        </view>
+      </view>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">性别</text>
+          <view class="group-right">
+            <text>男</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">最高学历</text>
+          <view class="group-right">
+            <text>小学</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker mode="time" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker form-group">
+          <text class="group-left">工作年限</text>
+          <view class="group-right">
+            <text>1-3年</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+
+      <view class="form-group">
+        <text class="group-left">邮箱地址</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="输入邮箱地址" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <text class="group-left">手机号码</text>
+        <view class="group-right">
+          <input placeholder-class="placeholder" placeholder="输入号码" />
+
+        </view>
+      </view>
+
+      <view class="form-group-last">
+        <text class="group-left">所在城市</text>
+        <view class="group-right">
+
+          <image src="../../images/icon/ser_right.png"></image>
+        </view>
+      </view>
+
+    </view>
+  </form>
+</view>

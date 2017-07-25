@@ -1,0 +1,51 @@
+<!--pages/p80/p80.wxml-->
+<view class="nav-bar-black">
+  <text>保存</text>
+</view>
+
+<view class="cont">
+  <form>
+    <view class="form-sec">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">语言类型</text>
+          <view class="group-right">
+            <text>英语</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">掌握程度</text>
+          <view class="group-right">
+            <text>入门</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group picker">
+          <text class="group-left">读写能力</text>
+          <view class="group-right">
+            <text>入门</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+      <picker  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="form-group-last picker">
+          <text class="group-left">听说能力</text>
+          <view class="group-right">
+            <text>入门</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </picker>
+
+    </view>
+  </form>
+</view>

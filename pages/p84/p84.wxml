@@ -1,0 +1,184 @@
+<!--pages/p84/p84.wxml-->
+<view class="cont">
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">允许HR分享</text>
+      <view class="group-right">
+        <image class="switch" src="../../images/icon/switch.png"></image>
+      </view>
+    </view>
+    <view class="group">
+      <text class="group-left">系统自动投递</text>
+      <view class="group-right">
+        <image class="switch" src="../../images/icon/switch_full.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group">
+      <view class="media2">
+        <image id="avatar" src="../../images/test1.jpg"></image>
+        <view class="media2-body">
+          <view class="media2-left">
+            <view class="info">
+              <text decode="true" class="name">陈雪&nbsp;|</text>
+              <text decode="true" class="sex">女&nbsp;|</text>
+              <text class="age">23岁</text>
+            </view>
+            <text class="message">编辑个人信息</text>
+          </view>
+          <view class="media2-right">
+            <text class="state">未完善</text>
+            <image src="../../images/icon/ser_right.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="group">
+      <text class="group-left">自我描述</text>
+      <view class="group-right">
+        <text>独立思考,擅长构思。。。。。。。</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group">
+      <text class="group-left">求职意向</text>
+      <view class="group-right">
+      <text>网页设计</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <text id="resume-detail">简历详情</text>
+
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">武汉麦迪格</text>
+      <view class="group-right">
+      <text>2014.06-2014.3</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group">
+      <text class="group-left">上海酷方</text>
+      <view class="group-right">
+      <text>2014.06-2014.3</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>工作经历</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">武汉大学</text>
+      <view class="group-right">
+        <text>2014.06-2014.3</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>教育经历</text>
+    </view>
+  </view>
+
+   <view class="sec">
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>培训经历</text>
+    </view>
+  </view>
+
+   <view class="sec">
+    <view class="group">
+      <text class="group-left">javascript</text>
+      <view class="group-right">
+        <text>熟练</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>专业技能</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">计算机二级证</text>
+      <view class="group-right">
+        <text>2014</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>专业证书</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">三好学生奖</text>
+      <view class="group-right">
+        <text>二等</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>学生奖励</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">英语</text>
+      <view class="group-right">
+        <text>入门</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>语言能力</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">淘宝</text>
+      <view class="group-right">
+        <text>2014.06-2014.3</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>项目经验</text>
+    </view>
+  </view>
+
+  <view class="sec">
+    <view class="group">
+      <text class="group-left">酷方网</text>
+      <view class="group-right">
+        <text>在线作品</text>
+        <image src="../../images/icon/ser_right.png"></image>
+      </view>
+    </view>
+    <view class="group-center">
+      <image src="../../images/icon/addcvs.png"></image>
+      <text>添加作品</text>
+    </view>
+  </view>
+
+  
+
+</view>

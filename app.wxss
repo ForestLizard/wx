@@ -18,7 +18,7 @@ input{
 
 /*最外层容器，*/
 .cont{
-  min-height: 1206rpx;
+  min-height: 100vh;
   background: #f0f0f0;
 }
 
