@@ -1,5 +1,31 @@
 /* pages/p02-04/p02-04.wxss */
-/* pages/p02/p02.wxss */
+.nav{
+  display: flex;
+  justify-content: center;
+}
+.nav-item{
+  width: 148rpx;
+  height: 86rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 15px;
+}
+.nav-item-now{
+  position: relative;
+  color: #56c0b0;
+
+}
+.nav-item-now ::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left:0;
+  height: 2rpx;
+  bottom: 0;
+  background-color: #56c0b0;
+}
 .sec-topic{
   padding: 30rpx;
   border-top: 15rpx solid #eeeeee;

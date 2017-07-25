@@ -1,4 +1,15 @@
 <!--pages/p06-07/p06-07.wxml-->
+<view class="nav-bar">
+  <text id="city">武汉</text>
+  <image id="city-icon" src="../../images/icon/more_down_green.png"></image>
+  <input focus="false" bindinput="handleInput" bindfocus="handleInputFocus" bindblur="handleInputBlur"/>
+  <text id="search">搜索</text>
+</view>
+<view class="center" style="display: {{searchVisibility?'flex':'none'}}" bindtap="handleCenterTap">
+    <image id="search-icon" src="../../images/icon/cir_ser.png"></image>
+    <text>热门圈子</text>
+</view>
+
 <scroll-view class="cont">
   <view class="header">
     <view id="hot-topic" class="hot">

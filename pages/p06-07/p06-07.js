@@ -6,7 +6,10 @@ Page({
    */
   data: {
     joinCircleVisible: false,
-    quitCircleVisible: false
+    quitCircleVisible: false,
+    searchVisibility: true,
+    searchContent: ''
+
   },
   joinCircleShow(){
     this.setData({
@@ -28,11 +31,49 @@ Page({
       quitCircleVisible: false
     })
   },
+  handleInput(e){
+    this.setData({
+      searchContent: e.detail.value
+    });
+  },
+  hideSearch() {
+    this.setData({
+      searchVisibility: false
+    });
+  },
+  showSearch(e) {
+    this.setData({
+      searchVisibility: true
+    });
+  },
+  handleInputFocus(){
+    this.hideSearch();
+  },
+  handleInputBlur(){
+    const val = this.data.searchContent;
+    if(!val){
+      this.showSearch();
+    }
+  },
+  handleCenterTap(){
+    this.hideSearch();
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.setNavigationBarTitle({
+      title: ' ',
+    });
+    wx.setNavigationBarColor({
+      frontColor: '#000',
+      backgroundColor: '#fff',
+      animation: {
+        duration: 400,
+        timingFunc: 'easeIn'
+      }
+    })
   },
 
   /**
@@ -74,13 +115,6 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
   
   }
 })

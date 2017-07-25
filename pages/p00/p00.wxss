@@ -1,5 +1,16 @@
 /* pages/p00/p00.wxss */
 
+.nav-bar-black{
+  justify-content: flex-end;
+}
+.nav-bar-black text{
+  padding-right: 30rpx;
+  font-size: 0.8rem;
+  color: #56c0b0;
+}
+.cont{
+  padding-top: 86rpx;
+}
 .header{
   padding: 30rpx;
   background-color: #fff;

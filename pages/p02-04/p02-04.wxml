@@ -1,6 +1,15 @@
 <!--pages/p02/p02.wxml-->
+<view class="nav">
+  <view class="nav-item {{viewToggle[0]?'nav-item-now':''}}" data-nav-item-name="topic" bindtap="toggleView">
+    <text>话题</text>
+  </view>
+  <view class="nav-item {{viewToggle[1]?'nav-item-now':''}}" data-nav-item-name="job" bindtap="toggleView">
+    <text>职位</text>
+  </view>
+</view>
+
 <scroll-view class="cont">
-  <view id="topic" class="box" >
+  <view id="topic" class="box" style="display: {{viewToggle[0]?'block':'none'}}">
     <view class="sec-topic">
       <view class="header">
         <text class="title">#电影嫌疑人X的献身</text>
@@ -151,7 +160,7 @@
     </view>
   </view>
 
-  <view id="job" class="box">
+  <view id="job" class="box"  style="display: {{viewToggle[1]?'block':'none'}}">
     <view class="sec-job media4">
       <image class="media4-icon" src="../../images/test5.jpg"></image>
       <view class="media4-body">

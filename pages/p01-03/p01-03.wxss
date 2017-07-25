@@ -1,4 +1,33 @@
 /* pages/p01-03/p01-03.wxss */
+
+.nav{
+  display: flex;
+  justify-content: center;
+}
+.nav-item{
+  width: 148rpx;
+  height: 86rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 15px;
+}
+.nav-item-now{
+  position: relative;
+  color: #56c0b0;
+
+}
+.nav-item-now ::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left:0;
+  height: 2rpx;
+  bottom: 0;
+  background-color: #56c0b0;
+}
+
 .box{
   display: flex;
   flex-direction: column;
@@ -24,5 +53,5 @@ button{
   margin-top: 40rpx !important;
   padding: 0 104rpx !important;
   font-size: 14px!important;
-  border-radius: 34rpx;
+  border-radius: 34rpx!important;
 }

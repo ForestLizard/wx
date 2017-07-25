@@ -1,12 +1,15 @@
 <!--pages/p00/p00.wxml-->
+<view class="nav-bar-black">
+  <text>登录</text>
+</view>
 <scroll-view class="cont">
   <view class="header">
     <view id="hot-topic" class="hot">
-      <image src="../../images/icon/my_topic.png"></image>
+      <image src="../../images/icon/cir_hot_big.png"></image>
       <text>热门话题</text>
     </view>
     <view id="hot-job" class="hot">
-      <image src="../../images/icon/my_cvs.png"></image>
+      <image src="../../images/icon/cir_hot_post.png"></image>
       <text>热门职位</text>
     </view>
   </view>

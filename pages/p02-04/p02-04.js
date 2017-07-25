@@ -5,14 +5,43 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    viewToggle: [true, false],
+   
   },
+  toggleView(e) {
+    const navItemName = e.currentTarget.dataset.navItemName;
+    switch (navItemName) {
+      case 'topic':
+        this.setData({
+          viewToggle: [true, false]
+        });
+        break;
+      case 'job':
+        this.setData({
+          viewToggle: [false, true]
+        });
+        break;
+      default:
+
+    }
+  },
+  
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.setNavigationBarTitle({
+      title: ' ',
+    });
+    wx.setNavigationBarColor({
+      frontColor: '#000',
+      backgroundColor: '#fff',
+      animation: {
+        duration: 400,
+        timingFunc: 'easeIn'
+      }
+    })
   },
 
   /**
@@ -54,13 +83,6 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
   
   }
 })
