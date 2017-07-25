@@ -8,8 +8,8 @@ Page({
     joinCircleVisible: false,
     quitCircleVisible: false,
     searchVisibility: true,
-    searchContent: ''
-
+    searchContent: '',
+    region: ['武汉', '广州市', '海珠区']//长度必须为3，用于存放省市区
   },
   joinCircleShow(){
     this.setData({
@@ -31,7 +31,8 @@ Page({
       quitCircleVisible: false
     })
   },
-  handleInput(e){
+  getVal(e){
+    //同步input数据到store
     this.setData({
       searchContent: e.detail.value
     });
@@ -46,7 +47,7 @@ Page({
       searchVisibility: true
     });
   },
-  handleInputFocus(){
+  handleInputTap(){
     this.hideSearch();
   },
   handleInputBlur(){
@@ -59,6 +60,13 @@ Page({
     this.hideSearch();
 
   },
+  bindRegionChange(e){ 
+    const currentRegion = e.detail.value;
+    this.setData({
+      region: currentRegion
+    });
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -67,7 +75,7 @@ Page({
       title: ' ',
     });
     wx.setNavigationBarColor({
-      frontColor: '#000',
+      frontColor: '#000000',
       backgroundColor: '#fff',
       animation: {
         duration: 400,

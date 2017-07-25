@@ -40,7 +40,7 @@
       <view id="circle-way" class="form-group">
         <text class="form-group-left">入圈方式</text>
         <view class="form-group-right">
-          <picker bindchange="bindWayChange" value="{{index2}}" range="{{ways}}">
+          <picker bindchange="bindWayChange" value="{{index2+1}}" range="{{ways}}">
             <view class="picker">
               <text class="picker-result">{{ways[index2]}}</text>
               <image class="go" src="../../images/icon/cir_info_right.png"></image>

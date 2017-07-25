@@ -1,13 +1,18 @@
 <!--pages/p06-07/p06-07.wxml-->
 <view class="nav-bar">
-  <text id="city">武汉</text>
-  <image id="city-icon" src="../../images/icon/more_down_green.png"></image>
-  <input focus="false" bindinput="handleInput" bindfocus="handleInputFocus" bindblur="handleInputBlur"/>
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" >
+    <view class="picker">
+      <text id="city">{{region[0]}}</text>
+      <image id="city-icon" src="../../images/icon/more_down_green.png"></image>
+    </view>
+  </picker>
+
+  <input focus="{{!searchVisibility}}" bindinput="getVal" bindtap="handleInputTap" bindblur="handleInputBlur" />
   <text id="search">搜索</text>
 </view>
 <view class="center" style="display: {{searchVisibility?'flex':'none'}}" bindtap="handleCenterTap">
-    <image id="search-icon" src="../../images/icon/cir_ser.png"></image>
-    <text>热门圈子</text>
+  <image id="search-icon" src="../../images/icon/cir_ser.png"></image>
+  <text>热门圈子</text>
 </view>
 
 <scroll-view class="cont">
@@ -23,88 +28,88 @@
   </view>
   <scroll-view class="content">
     <view class="media4">
-        <image class="media4-icon" src="../../images/test5.jpg"></image>
-        <view class="media4-body">
-          <view class="media4-left">
-            <text class="media4-title">武汉设计圈</text>
-            <text class="media4-info">网页设计、设计、div</text>
-            <view class="media4-footer">
-              <image src="../../images/icon/cir_adr.png"></image>
-              <text class="media4-adr">武汉</text>
-              <image src="../../images/icon/cir_cy.png"></image>
-              <text class="media4-cy">20</text>
-              <image src="../../images/icon/cir_zw.png"></image>
-              <text class="media4-zw">11</text>
-            </view>
-          </view>
-          <view class="media4-right">
-            <text class="media4-time">2小时以前</text>
-            <button class="bt-inverse media4-join" bindtap="joinCircleShow">加入</button>
+      <image class="media4-icon" src="../../images/test5.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
           </view>
         </view>
+        <view class="media4-right">
+          <text class="media4-time">2小时以前</text>
+          <button class="bt-inverse media4-join" bindtap="joinCircleShow">加入</button>
+        </view>
+      </view>
     </view>
     <view class="media4">
-        <image class="media4-icon" src="../../images/test2.jpg"></image>
-        <view class="media4-body">
-          <view class="media4-left">
-            <text class="media4-title">武汉设计圈</text>
-            <text class="media4-info">网页设计、设计、div</text>
-            <view class="media4-footer">
-              <image src="../../images/icon/cir_adr.png"></image>
-              <text class="media4-adr">武汉</text>
-              <image src="../../images/icon/cir_cy.png"></image>
-              <text class="media4-cy">20</text>
-              <image src="../../images/icon/cir_zw.png"></image>
-              <text class="media4-zw">11</text>
-            </view>
-          </view>
-          <view class="media4-right">
-            <text class="media4-time">14：00</text>
-            <button class="bt-inverse media4-joined" bindtap="quitCircleShow">已加入</button>
+      <image class="media4-icon" src="../../images/test2.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
           </view>
         </view>
+        <view class="media4-right">
+          <text class="media4-time">14：00</text>
+          <button class="bt-inverse media4-joined" bindtap="quitCircleShow">已加入</button>
+        </view>
+      </view>
     </view>
     <view class="media4">
-        <image class="media4-icon" src="../../images/test5.jpg"></image>
-        <view class="media4-body">
-          <view class="media4-left">
-            <text class="media4-title">武汉设计圈</text>
-            <text class="media4-info">网页设计、设计、div</text>
-            <view class="media4-footer">
-              <image src="../../images/icon/cir_adr.png"></image>
-              <text class="media4-adr">武汉</text>
-              <image src="../../images/icon/cir_cy.png"></image>
-              <text class="media4-cy">20</text>
-              <image src="../../images/icon/cir_zw.png"></image>
-              <text class="media4-zw">11</text>
-            </view>
-          </view>
-          <view class="media4-right">
-            <text class="media4-time">2小时以前</text>
-            <button class="bt-inverse media4-join" bindtap="joinCircleShow">加入</button>
+      <image class="media4-icon" src="../../images/test5.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
           </view>
         </view>
+        <view class="media4-right">
+          <text class="media4-time">2小时以前</text>
+          <button class="bt-inverse media4-join" bindtap="joinCircleShow">加入</button>
+        </view>
+      </view>
     </view>
     <view class="media4">
-        <image class="media4-icon" src="../../images/test5.jpg"></image>
-        <view class="media4-body">
-          <view class="media4-left">
-            <text class="media4-title">武汉设计圈</text>
-            <text class="media4-info">网页设计、设计、div</text>
-            <view class="media4-footer">
-              <image src="../../images/icon/cir_adr.png"></image>
-              <text class="media4-adr">武汉</text>
-              <image src="../../images/icon/cir_cy.png"></image>
-              <text class="media4-cy">20</text>
-              <image src="../../images/icon/cir_zw.png"></image>
-              <text class="media4-zw">11</text>
-            </view>
-          </view>
-          <view class="media4-right">
-            <text class="media4-time">2小时以前</text>
-            <button class="bt-inverse media4-join" bindtap="joinCircleShow">加入</button>
+      <image class="media4-icon" src="../../images/test5.jpg"></image>
+      <view class="media4-body">
+        <view class="media4-left">
+          <text class="media4-title">武汉设计圈</text>
+          <text class="media4-info">网页设计、设计、div</text>
+          <view class="media4-footer">
+            <image src="../../images/icon/cir_adr.png"></image>
+            <text class="media4-adr">武汉</text>
+            <image src="../../images/icon/cir_cy.png"></image>
+            <text class="media4-cy">20</text>
+            <image src="../../images/icon/cir_zw.png"></image>
+            <text class="media4-zw">11</text>
           </view>
         </view>
+        <view class="media4-right">
+          <text class="media4-time">2小时以前</text>
+          <button class="bt-inverse media4-join" bindtap="joinCircleShow">加入</button>
+        </view>
+      </view>
     </view>
   </scroll-view>
 </scroll-view>
@@ -112,18 +117,17 @@
 <view class="hover" style="display:{{joinCircleVisible||quitCircleVisible?'block':'none'}}">
 </view>
 <view class="alert-box" style="display:{{joinCircleVisible?'flex':'none'}}">
-    <text>您将加入“武汉设计圈”</text>
-    <view class="bt-box">
-      <button id="cancel" class="bt-reject" bindtap="joinCircleHide" >取消</button>
-      <button id="success" class="bt-primary">确认</button>
-    </view>
+  <text>您将加入“武汉设计圈”</text>
+  <view class="bt-box">
+    <button id="cancel" class="bt-reject" bindtap="joinCircleHide">取消</button>
+    <button id="success" class="bt-primary">确认</button>
+  </view>
 </view>
 <view class="alert-box" style="display:{{quitCircleVisible?'flex':'none'}}">
-    <text>您将退出“武汉设计圈”</text>
-    <view class="bt-box">
-      <button id="cancel" class="bt-reject" bindtap="quitCircleHide">取消</button>
-      <button id="success" class="bt-primary">确认</button>
-    </view>
+  <text>您将退出“武汉设计圈”</text>
+  <view class="bt-box">
+    <button id="cancel" class="bt-reject" bindtap="quitCircleHide">取消</button>
+    <button id="success" class="bt-primary">确认</button>
+  </view>
 </view>
-
 

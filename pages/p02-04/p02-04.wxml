@@ -8,7 +8,7 @@
   </view>
 </view>
 
-<scroll-view class="cont">
+<view class="cont">
   <view id="topic" class="box" style="display: {{viewToggle[0]?'block':'none'}}">
     <view class="sec-topic">
       <view class="header">
@@ -226,5 +226,5 @@
     </view>
   </view>
   
-</scroll-view>
+</view>
 
